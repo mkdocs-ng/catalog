@@ -50,43 +50,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: install best-of-generator
-        run: pip install git+https://github.com/mkdocs/best-of-generator
-      - name: patch best-of-generator for pypistats rate-limit handling
-        shell: bash
-        run: |
-          python << 'PYEOF'
-          import importlib.util, pathlib
-          spec = importlib.util.find_spec("best_of.integrations.pypi_integration")
-          path = pathlib.Path(spec.origin)
-          src = path.read_text()
-
-          # 1. Add urllib3 HTTPError import (pypistats raises urllib3 errors, not requests)
-          src = src.replace(
-              "from requests.exceptions import HTTPError",
-              "from requests.exceptions import HTTPError\nfrom urllib3.exceptions import HTTPError as Urllib3HTTPError"
-          )
-
-          # 2. Catch Urllib3HTTPError in except clause
-          src = src.replace(
-              "except (HTTPError, HTTPStatusError) as ex:",
-              "except (HTTPError, HTTPStatusError, Urllib3HTTPError) as ex:"
-          )
-
-          # 3. Handle 429 check for urllib3 (no .response attr on Urllib3HTTPError)
-          src = src.replace(
-              "if ex.response.status_code == 429:",
-              "if getattr(getattr(ex, 'response', None), 'status_code', None) == 429 or '429' in str(ex):"
-          )
-
-          # 4. Add 2s delay between pypistats requests (limit is 30/min, 305 projects)
-          src = src.replace(
-              "project_info.pypi_monthly_downloads\n                )\n                return\n            except (HTTPError, HTTPStatusError, Urllib3HTTPError) as ex:",
-              "project_info.pypi_monthly_downloads\n                )\n                time.sleep(2)  # respect pypistats 30 req/min limit\n                return\n            except (HTTPError, HTTPStatusError, Urllib3HTTPError) as ex:"
-          )
-
-          path.write_text(src)
-          print(f"Patched {path}")
-          PYEOF
+        run: pip install git+https://github.com/mkdocs-ng/best-of-generator
       - name: update-best-of-list
         run: best-of generate projects.yaml --github-key=${{ secrets.GITHUB_TOKEN }} --libraries-key=${{ secrets.LIBRARIES_KEY }}
       - name: push-update
