@@ -5,17 +5,17 @@
 </h1>
 
 <p align="center">
-    <strong>:trophy: :books: A list of awesome <a href="https://github.com/mkdocs/mkdocs">MkDocs</a> projects and plugins.</strong>
+    <strong>:trophy: :books: A list of awesome <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs</a> projects and plugins.</strong>
 </p>
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
     <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-300-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
-    <a href="https://github.com/mkdocs/catalog/releases" title="Catalog Updates"><img src="https://img.shields.io/github/release-date/mkdocs/catalog?color=green&label=updated"></a>
+    <a href="https://github.com/mkdocs-ng/catalog/releases" title="Catalog Updates"><img src="https://img.shields.io/github/release-date/mkdocs-ng/catalog?color=green&label=updated"></a>
 </p>
 
-This list contains 300 awesome open-source projects grouped into 17 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you want to add or update projects, feel free to open an [issue](https://github.com/mkdocs/catalog/issues/new/choose), submit a [pull request](https://github.com/mkdocs/catalog/pulls), or directly edit the [projects.yaml](https://github.com/mkdocs/catalog/edit/main/projects.yaml). Contributions are very welcome!
+This list contains 300 awesome open-source projects grouped into 17 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you want to add or update projects, feel free to open an [issue](https://github.com/mkdocs-ng/catalog/issues/new/choose), submit a [pull request](https://github.com/mkdocs-ng/catalog/pulls), or directly edit the [projects.yaml](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -4127,12 +4127,12 @@ This list contains 300 awesome open-source projects grouped into 17 categories. 
 
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
 
-- Open an issue by selecting one of the provided categories from the [issue page](https://github.com/mkdocs/catalog/issues/new/choose) and fill in the requested information.
-- Modify the [projects.yaml](https://github.com/mkdocs/catalog/blob/main/projects.yaml) with your additions or changes, and submit a pull request. This can also be done directly via the [Github UI](https://github.com/mkdocs/catalog/edit/main/projects.yaml).
+- Open an issue by selecting one of the provided categories from the [issue page](https://github.com/mkdocs-ng/catalog/issues/new/choose) and fill in the requested information.
+- Modify the [projects.yaml](https://github.com/mkdocs-ng/catalog/blob/main/projects.yaml) with your additions or changes, and submit a pull request. This can also be done directly via the [Github UI](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml).
 
 If you like to contribute to or share suggestions regarding the project metadata collection or markdown generation, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository. If you like to create your own best-of list, we recommend to follow [this guide](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
-For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/mkdocs/catalog/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/mkdocs/catalog/blob/main/.github/CODE_OF_CONDUCT.md).
+For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/mkdocs-ng/catalog/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/mkdocs-ng/catalog/blob/main/.github/CODE_OF_CONDUCT.md).
 
 ## License
 

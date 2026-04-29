@@ -175,7 +175,7 @@ projects:
   labels: [theme]
   category: theming
 - name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
+  mkdocs_theme: zettelkasten
   mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
@@ -1499,11 +1499,6 @@ projects:
   pypi_id: mkdocs-categories-plugin
   labels: [plugin]
   category: nav-pages
-- name: filename-title
-  mkdocs_plugin: filename_title
-  github_id: mipro98/mkdocs-filename-title-plugin
-  labels: [plugin]
-  category: nav-pages
 - name: mkdocs-title-casing-plugin
   mkdocs_plugin: title-casing
   github_id: mattchristopher314/mkdocs-title-casing-plugin
@@ -1517,7 +1512,6 @@ projects:
   labels: [plugin]
   category: nav-pages
 - name: mkdocs-pug
-  github_id: vzhong/mkdocs_pug
   pypi_id: mkdocs-pug
   labels: []
   category: nav-pages
@@ -1633,7 +1627,7 @@ projects:
 - name: MkDocs-Test
   mkdocs_plugin: test
   github_id: fralau/mkdocs-test
-  pypi: mkdocs-test
+  pypi_id: mkdocs-test
   labels: [plugin]
   license: MIT
   category: quality
@@ -1849,7 +1843,7 @@ projects:
 - name: mkdocs-required-frontmatter-plugin
   mkdocs_plugin: required-frontmatter
   github_id: unmc-vcr/mkdocs-required-frontmatter-plugin
-  pypi_id:  mkdocs-required-frontmatter-plugin
+  pypi_id: mkdocs-required-frontmatter-plugin
   labels: [plugin]
   category: site-management
 - name: Publisher for MkDocs - debugger
