@@ -78,6 +78,12 @@ jobs:
               "if getattr(getattr(ex, 'response', None), 'status_code', None) == 429 or '429' in str(ex):"
           )
 
+          # 4. Add 2s delay between pypistats requests (limit is 30/min, 305 projects)
+          src = src.replace(
+              "project_info.pypi_monthly_downloads\n                )\n                return\n            except (HTTPError, HTTPStatusError, Urllib3HTTPError) as ex:",
+              "project_info.pypi_monthly_downloads\n                )\n                time.sleep(2)  # respect pypistats 30 req/min limit\n                return\n            except (HTTPError, HTTPStatusError, Urllib3HTTPError) as ex:"
+          )
+
           path.write_text(src)
           print(f"Patched {path}")
           PYEOF
