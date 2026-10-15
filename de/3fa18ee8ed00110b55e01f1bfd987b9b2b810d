@@ -1,0 +1,19 @@
+projects.yaml
+  s_f518a1c9328c7b::t_02fa5365eba915 529,532
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "de3fa18ee8ed00110b55e01f1bfd987b9b2b810d",
+  "prompts": {},
+  "sessions": {
+    "s_f518a1c9328c7b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c2b090ca-b947-4998-975f-5d845a56ad69",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Xianpeng Shen <xianpeng.shen@gmail.com>"
+    }
+  }
+}
