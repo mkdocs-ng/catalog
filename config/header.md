@@ -6,16 +6,31 @@
 <h1 align="center">MkDocs Catalog</h1>
 
 <p align="center">
-    <strong>A ranked list of {project_count} plugins, themes and recipes for <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs NG</a> and MkDocs.</strong>
+    <strong>{project_count} plugins, themes and Markdown extensions for <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs NG</a> and MkDocs, ranked and updated every week.</strong>
+    <br>
+    <em>MkDocs NG: the maintained MkDocs that keeps your plugins working.</em>
 </p>
 
 <p align="center">
-    <a href="https://best-of.org" title="Best-of list"><img src="https://img.shields.io/badge/best--of-list-5ac4bf.svg" alt="Best-of list"></a>
-    <a href="#contents" title="Project Count"><img src="https://img.shields.io/badge/projects-{project_count}-blue.svg?color=5ac4bf" alt="Project count"></a>
-    <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg" alt="Contributions welcome"></a>
-    <a href="https://github.com/mkdocs-ng/catalog/releases" title="Catalog Updates"><img src="https://img.shields.io/github/release-date/mkdocs-ng/catalog?color=green&label=updated" alt="Last updated"></a>
+    <a href="#contents" title="Project count"><img src="https://img.shields.io/badge/projects-{project_count}-0061FE.svg" alt="Project count"></a>
+    <a href="https://github.com/mkdocs-ng/catalog/releases" title="Catalog updates"><img src="https://img.shields.io/github/release-date/mkdocs-ng/catalog?color=011C46&label=updated" alt="Last updated"></a>
+    <a href="https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml" title="Plugin compatibility test"><img src="https://img.shields.io/github/actions/workflow/status/mkdocs-ng/mkdocs/compat.yml?branch=main&label=plugin%20compatibility" alt="Plugin compatibility"></a>
+    <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-0061FE.svg" alt="Contributions welcome"></a>
 </p>
 
-This list contains {project_count} awesome open-source projects grouped into {category_count} categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you want to add or update projects, feel free to open an [issue](https://github.com/mkdocs-ng/catalog/issues/new/choose), submit a [pull request](https://github.com/mkdocs-ng/catalog/pulls), or directly edit the [projects.yaml](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml). Contributions are very welcome!
+This catalog lists {project_count} open-source projects in {category_count} categories. Projects are ranked by a quality score computed from GitHub and PyPI metrics. Projects marked <img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"> build on MkDocs NG in the weekly [plugin compatibility test](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml).
 
-> 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+Get started with MkDocs NG, a drop-in replacement for MkDocs 1.x:
+
+```sh
+pip install mkdocs-ng
+```
+
+Read the [MkDocs NG documentation](https://mkdocs-ng.github.io/mkdocs/) for more. To add or update a project, open an [issue](https://github.com/mkdocs-ng/catalog/issues/new/choose) or edit [projects.yaml](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml).
+
+## From the MkDocs NG team
+
+- [**Sumi**](https://mkdocs-ng.github.io/mkdocs-sumi/): a local-first documentation theme with a landing page, blog, releases and print edition. `pip install mkdocs-sumi`
+- [**MkDocs NG Material**](https://github.com/mkdocs-ng/mkdocs-material): Material for MkDocs, maintained for MkDocs NG with security and bug fixes. `pip install mkdocs-ng-material`
+
+Both are also listed, and ranked like any other project, under [Theming](#-theming).
