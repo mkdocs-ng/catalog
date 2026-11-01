@@ -71,6 +71,23 @@ projects:
   pypi_id: mkdocs-material
   labels: [theme, plugin]
   category: theming
+- name: MkDocs NG Material
+  mkdocs_theme: material
+  mkdocs_plugin: [material/blog, material/group, material/offline, material/search, material/social, material/tags]
+  github_id: mkdocs-ng/mkdocs-material
+  pypi_id: mkdocs-ng-material
+  shadowed: [mkdocs_theme, mkdocs_plugin]
+  description: Material for MkDocs, maintained for MkDocs NG with security and bug fixes.
+  labels: [theme, plugin]
+  category: theming
+- name: Sumi
+  mkdocs_theme: sumi
+  mkdocs_plugin: sumi
+  github_id: mkdocs-ng/mkdocs-sumi
+  pypi_id: mkdocs-sumi
+  description: Local-first documentation theme for MkDocs NG with a landing page, blog, releases and print edition.
+  labels: [theme, plugin]
+  category: theming
 - name: Cinder
   mkdocs_theme: cinder
   github_id: chrissimpkins/cinder
