@@ -72,7 +72,7 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     </tr>
     <tr>
         <td><code>labels</code></td>
-        <td>List of labels that this project is related to. You can find all available label IDs in the <code>projects.yaml</code> file. The <code>ng-tested</code> label marks projects that pass the MkDocs NG <a href="https://github.com/mkdocs-ng/mkdocs/blob/main/compat/cases.yaml">plugin compatibility test</a>; to get it, add a case there.</td>
+        <td>List of labels that this project is related to. You can find all available label IDs in the <code>projects.yaml</code> file. The <code>ng-tested</code> label marks projects that pass the MkDocs NG <a href="https://github.com/mkdocs-ng/mkdocs/blob/main/compat/cases.yaml">plugin compatibility test</a>. The weekly update sets it from the latest test results, so don't add it by hand; to get it, add a case to the test.</td>
     </tr>
     <tr>
         <td><code>screenshot</code></td>

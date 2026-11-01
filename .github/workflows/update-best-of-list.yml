@@ -51,6 +51,24 @@ jobs:
         env:
           GENERATOR_REF: ${{ inputs.generator_ref || 'main' }}
 
+      - name: Mark plugins tested on MkDocs NG
+        # Reads the latest plugin compatibility report from mkdocs-ng/mkdocs.
+        # If it can't be fetched, the labels stay as they are.
+        continue-on-error: true
+        run: |
+          dir="$RUNNER_TEMP/compat"
+          for run_id in $(gh run list -R mkdocs-ng/mkdocs --workflow compat.yml --branch main \
+              --status completed --limit 10 --json databaseId --jq '.[].databaseId'); do
+            if gh run download "$run_id" -R mkdocs-ng/mkdocs -n compat-report -D "$dir"; then
+              echo "Using compatibility report from run $run_id"
+              break
+            fi
+          done
+          curl -fsSL -o "$dir/cases.yaml" https://raw.githubusercontent.com/mkdocs-ng/mkdocs/main/compat/cases.yaml
+          python .github/scripts/sync_ng_tested.py "$dir/compat-report.json" "$dir/cases.yaml"
+        env:
+          GH_TOKEN: ${{ secrets.BEST_OF_GITHUB_TOKEN || github.token }}
+
       - name: Generate
         run: |
           cp README.md "$RUNNER_TEMP/README.old.md"
@@ -83,7 +101,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md latest-changes.md history/
+          git add README.md latest-changes.md history/ projects.yaml
           git commit -m "Update best-of list for version $VERSION"
           # main may have moved during the run; the generated files rarely conflict.
           git pull --rebase origin main
