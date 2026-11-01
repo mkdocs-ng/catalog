@@ -197,6 +197,7 @@ projects:
   category: theming
 - name: Zettelkasten
   mkdocs_theme: zettelkasten
+  screenshot: false  # not in the MkDocs gallery
   mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
@@ -267,12 +268,14 @@ projects:
   category: theming
 - name: mkdocs-curriculum-vitae
   mkdocs_theme: curriculum-vitae
+  screenshot: false  # not in the MkDocs gallery
   github_id: Paul-Riviere/mkdocs-curriculum-vitae
   pypi_id: mkdocs-curriculum-vitae
   labels: [theme]
   category: theming
 - name: Shadcn
   mkdocs_theme: shadcn
+  screenshot: false  # not in the MkDocs gallery
   mkdocs_plugin: [shadcn/search, shadcn/excalidraw]
   github_id: asiffer/mkdocs-shadcn
   pypi_id: mkdocs-shadcn
