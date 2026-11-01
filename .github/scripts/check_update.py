@@ -22,7 +22,11 @@ MIN_GITHUB_COVERAGE = 0.90
 
 
 def project_count(readme: str) -> int:
-    match = re.search(r"This list contains (\d+) awesome", readme)
+    # The project-count badge in config/header.md; older READMEs only had
+    # the "This list contains N awesome ..." sentence.
+    match = re.search(r"img\.shields\.io/badge/projects-(\d+)-", readme) or re.search(
+        r"This list contains (\d+) awesome", readme
+    )
     if not match:
         sys.exit("Could not find the project count in the README.")
     return int(match.group(1))
