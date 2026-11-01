@@ -8,7 +8,7 @@
 <p align="center">
     <strong>{project_count} plugins, themes and Markdown extensions for <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs NG</a> and MkDocs, ranked and updated every week.</strong>
     <br>
-    <em>MkDocs NG: the maintained MkDocs that keeps your plugins working.</em>
+    <em>MkDocs NG: Write Markdown. Ship docs.</em>
 </p>
 
 <p align="center">
