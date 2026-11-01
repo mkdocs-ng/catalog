@@ -72,7 +72,11 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     </tr>
     <tr>
         <td><code>labels</code></td>
-        <td>List of labels that this project is related to. You can find all available label IDs in the <code>projects.yaml</code> file.</td>
+        <td>List of labels that this project is related to. You can find all available label IDs in the <code>projects.yaml</code> file. The <code>ng-tested</code> label marks projects that pass the MkDocs NG <a href="https://github.com/mkdocs-ng/mkdocs/blob/main/compat/cases.yaml">plugin compatibility test</a>; to get it, add a case there.</td>
+    </tr>
+    <tr>
+        <td><code>screenshot</code></td>
+        <td>For themes: the image shown next to the theme. By default, the picture from the <a href="https://pawamoy.github.io/mkdocs-gallery/">MkDocs gallery</a> is used; set an image URL if the theme isn't in the gallery, or <code>false</code> to show none.</td>
     </tr>
     <tr>
         <td colspan="2"><b>Supported Package Managers:</b></td>
@@ -99,15 +103,15 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
     </tr>
 </table>
 
-Please refer to the [best-of-generator documentation](https://github.com/best-of-lists/best-of-generator#project-properties) for a complete and up-to-date list of supported project properties.
+Please refer to the [best-of-generator documentation](https://github.com/mkdocs-ng/best-of-generator#project-properties) for a complete and up-to-date list of supported project properties.
 
 ## Improve metadata collection
 
-If you like to contribute to or share suggestions regarding the project metadata collection, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository.
+If you like to contribute to or share suggestions regarding the project metadata collection, please refer to the [mkdocs-ng/best-of-generator](https://github.com/mkdocs-ng/best-of-generator) repository.
 
 ## Improve markdown generation
 
-If you like to contribute to or share suggestions regarding the markdown generation, please refer to the [best-of-generator](https://github.com/best-of-lists/best-of-generator) repository.
+If you like to contribute to or share suggestions regarding the markdown generation, please refer to the [mkdocs-ng/best-of-generator](https://github.com/mkdocs-ng/best-of-generator) repository.
 
 ## Create your own best-of list
 

@@ -9,7 +9,7 @@ configuration:
   require_license: false
   allowed_licenses: ["all"]
   project_inactive_months: 12
-  project_dead_months: 99999  # "dead" is a somewhat strong assumption, so we avoid making it
+  project_dead_months: 0  # "dead" is a somewhat strong assumption, so we never mark projects as dead
 
 categories:
 - category: theming
@@ -49,17 +49,20 @@ categories:
 
 labels:
 - label: plugin
-  image: https://cdn.icon-icons.com/icons2/1465/PNG/32/701electricplug_100845.png
+  image: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg
   description: MkDocs plugin
 - label: theme
-  image: https://cdn.icon-icons.com/icons2/1495/PNG/32/preferencesdesktoptheme_102980.png
+  image: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg
   description: MkDocs theme
 - label: project
-  image: https://cdn.icon-icons.com/icons2/1448/PNG/32/42498factory_99134.png
-  description: Mkdocs-based project (website, templates, etc.)
+  image: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/project.svg
+  description: MkDocs-based project (website, templates, etc.)
 - label: markdown
-  image: https://cdn.icon-icons.com/icons2/1459/PNG/32/2799201-jigsaw-processing_99781.png
+  image: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/markdown.svg
   description: Markdown extension(s)
+- label: ng-tested
+  image: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg
+  description: Builds on MkDocs NG in the weekly <a href="https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml">plugin compatibility test</a>
 
 projects:
 - name: Material for MkDocs
@@ -69,7 +72,7 @@ projects:
     plugins.social: mkdocs-material[imaging]
   github_id: squidfunk/mkdocs-material
   pypi_id: mkdocs-material
-  labels: [theme, plugin]
+  labels: [theme, plugin, ng-tested]
   category: theming
 - name: MkDocs NG Material
   mkdocs_theme: material
@@ -85,6 +88,7 @@ projects:
   mkdocs_plugin: sumi
   github_id: mkdocs-ng/mkdocs-sumi
   pypi_id: mkdocs-sumi
+  screenshot: https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/screenshots/sumi.png
   description: Local-first documentation theme for MkDocs NG with a landing page, blog, releases and print edition.
   labels: [theme, plugin]
   category: theming
@@ -93,7 +97,7 @@ projects:
   github_id: chrissimpkins/cinder
   pypi_id: mkdocs-cinder
   license: MIT
-  labels: [theme]
+  labels: [theme, ng-tested]
   category: theming
 - name: Windmill
   mkdocs_theme: windmill
@@ -287,7 +291,7 @@ projects:
     plugins.mkdocstrings.handlers.python: mkdocstrings-python
   github_id: mkdocstrings/mkdocstrings
   pypi_id: mkdocstrings
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: api-docs
 - name: MkAutoDoc
   markdown_extension: mkautodoc
@@ -329,7 +333,7 @@ projects:
   markdown_extension: mkdocs-click
   github_id: mkdocs/mkdocs-click
   pypi_id: mkdocs-click
-  labels: [markdown]
+  labels: [markdown, ng-tested]
   category: api-docs
 - name: MkDocsOAD
   mkdocs_plugin: [neoteroi.mkdocsoad, neoteroi.contribs]
@@ -337,7 +341,7 @@ projects:
   description: Plugin for MkDocs to generate human readable documentation from OpenAPI Documentation Version 3 (also known as Swagger documentation).
   github_id: Neoteroi/mkdocs-plugins
   pypi_id: neoteroi-mkdocs
-  labels: [plugin, markdown]
+  labels: [plugin, markdown, ng-tested]
   category: api-docs
 - name: mkdocs-typer
   markdown_extension: mkdocs-typer
@@ -442,7 +446,7 @@ projects:
   mkdocs_plugin: rss
   github_id: Guts/mkdocs-rss-plugin
   pypi_id: mkdocs-rss-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: blogging
 - name: newsletter
   mkdocs_plugin: mkdocs-newsletter
@@ -505,7 +509,7 @@ projects:
   mkdocs_plugin: mermaid2
   github_id: fralau/mkdocs-mermaid2-plugin
   pypi_id: mkdocs-mermaid2-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: charts
 - name: markdownwavedrom
   mkdocs_plugin: markdownwavedrom
@@ -528,7 +532,7 @@ projects:
   mkdocs_plugin: kroki
   github_id: AVATEAM-IT-SYSTEMHAUS/mkdocs-kroki-plugin
   pypi_id: mkdocs-kroki-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: charts
 - name: MkDocs Img2Fig Plugin
   mkdocs_plugin: img2fig
@@ -582,7 +586,7 @@ projects:
   mkdocs_plugin: glightbox
   github_id: blueswen/mkdocs-glightbox
   pypi_id: mkdocs-glightbox
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: charts
 - name: import-statement
   mkdocs_plugin: import-statement
@@ -618,7 +622,7 @@ projects:
   markdown_extension: plantuml_markdown
   github_id: mikitex70/plantuml-markdown
   pypi_id: plantuml-markdown
-  labels: [markdown]
+  labels: [markdown, ng-tested]
   category: charts
 - name: markdown-captions
   markdown_extension: markdown_captions
@@ -721,14 +725,14 @@ projects:
   mkdocs_plugin: macros
   github_id: fralau/mkdocs_macros_plugin
   pypi_id: mkdocs-macros-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   license: MIT
   category: code-exec-templating
 - name: markdownextradata
   mkdocs_plugin: markdownextradata
   github_id: rosscdh/mkdocs-markdownextradata-plugin
   pypi_id: mkdocs-markdownextradata-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: code-exec-templating
 - name: jinja2sandbox
   mkdocs_plugin: jinja2sandbox
@@ -739,7 +743,7 @@ projects:
   mkdocs_plugin: gen-files
   github_id: oprypin/mkdocs-gen-files
   pypi_id: mkdocs-gen-files
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: code-exec-templating
 - name: mkdocs-markmap
   mkdocs_plugin: markmap
@@ -763,7 +767,7 @@ projects:
   mkdocs_plugin: mkdocs-jupyter
   github_id: danielfrg/mkdocs-jupyter
   pypi_id: mkdocs-jupyter
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: code-exec-templating
 - name: mkdocs-jupyterlite
   mkdocs_plugin: jupyterlite
@@ -805,7 +809,7 @@ projects:
     plugins.markdown-exec.ansi: markdown-exec[ansi]
   github_id: pawamoy/markdown-exec
   pypi_id: markdown-exec
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: code-exec-templating
 - name: mkjsfiddle
   mkdocs_plugin: jsfiddle
@@ -874,7 +878,7 @@ projects:
   mkdocs_plugin: git-revision-date-localized
   github_id: timvink/mkdocs-git-revision-date-localized-plugin
   pypi_id: mkdocs-git-revision-date-localized-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: git-info
 - name: git-revision-date
   mkdocs_plugin: git-revision-date
@@ -886,7 +890,7 @@ projects:
   mkdocs_plugin: git-authors
   github_id: timvink/mkdocs-git-authors-plugin
   pypi_id: mkdocs-git-authors-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: git-info
 - name: git-committers-2
   mkdocs_plugin: git-committers
@@ -948,7 +952,7 @@ projects:
   mkdocs_plugin: minify
   github_id: byrnereese/mkdocs-minify-plugin
   pypi_id: mkdocs-minify-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: html-css
 - name: bootstrap-tables
   mkdocs_plugin: bootstrap-tables
@@ -1031,7 +1035,7 @@ projects:
   mkdocs_plugin: i18n
   github_id: ultrabug/mkdocs-static-i18n
   pypi_id: mkdocs-static-i18n
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: i18n-l10n
 - name: mkdocs-mdpo
   mkdocs_plugin: mdpo
@@ -1078,7 +1082,7 @@ projects:
   mkdocs_plugin: swagger-ui-tag
   github_id: blueswen/mkdocs-swagger-ui-tag
   pypi_id: mkdocs-swagger-ui-tag
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: integrations
 - name: MkDocs Dependency License Information
   mkdocs_plugin: mkdocs_licenseinfo
@@ -1140,7 +1144,7 @@ projects:
   mkdocs_plugin: autorefs
   github_id: mkdocstrings/autorefs
   pypi_id: mkdocs-autorefs
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: links-refs
 - name: ezlinks
   mkdocs_plugin: ezlinks
@@ -1193,7 +1197,7 @@ projects:
   mkdocs_plugin: redirects
   github_id: mkdocs/mkdocs-redirects
   pypi_id: mkdocs-redirects
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: links-refs
 - name: htmlproofer
   mkdocs_plugin: htmlproofer
@@ -1258,7 +1262,7 @@ projects:
   mkdocs_plugin: bibtex
   github_id: shyamd/mkdocs-bibtex
   pypi_id: mkdocs-bibtex
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   license: BSD-3-Clause-LBNL
   category: links-refs
 - name: MkDocs Backlinks Section Plugin
@@ -1284,7 +1288,7 @@ projects:
   markdown_extension: [pymdownx.arithmatex, pymdownx.b64, pymdownx.betterem, pymdownx.blocks.admonition, pymdownx.blocks.definition, pymdownx.blocks.details, pymdownx.blocks.html, pymdownx.blocks.tab, pymdownx.caret, pymdownx.critic, pymdownx.details, pymdownx.emoji, pymdownx.escapeall, pymdownx.extra, pymdownx.highlight, pymdownx.inlinehilite, pymdownx.keys, pymdownx.magiclink, pymdownx.mark, pymdownx.pathconverter, pymdownx.progressbar, pymdownx.saneheaders, pymdownx.smartsymbols, pymdownx.snippets, pymdownx.striphtml, pymdownx.superfences, pymdownx.tabbed, pymdownx.tasklist, pymdownx.tilde]
   github_id: facelessuser/pymdown-extensions
   pypi_id: pymdown-extensions
-  labels: [markdown]
+  labels: [markdown, ng-tested]
   category: markdown
 - name: Math extension
   markdown_extension: mdx_math
@@ -1454,7 +1458,7 @@ projects:
   mkdocs_plugin: awesome-nav
   github_id: lukasgeiter/mkdocs-awesome-nav
   pypi_id: mkdocs-awesome-nav
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: nav-pages
 - name: mkdocs-nav-enhancements
   mkdocs_plugin: mkdocs-nav-enhancements
@@ -1472,13 +1476,13 @@ projects:
   mkdocs_plugin: literate-nav
   github_id: oprypin/mkdocs-literate-nav
   pypi_id: mkdocs-literate-nav
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: nav-pages
 - name: encryptcontent
   mkdocs_plugin: encryptcontent
   github_id: unverbuggt/mkdocs-encryptcontent-plugin
   pypi_id: mkdocs-encryptcontent-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: nav-pages
 - name: awesome-list
   mkdocs_plugin: awesome-list
@@ -1768,7 +1772,7 @@ projects:
   mkdocs_plugin: monorepo
   github_id: backstage/mkdocs-monorepo-plugin
   pypi_id: mkdocs-monorepo-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: site-management
 - name: multirepo
   github_id: wilhelmer/mkdocs-multirepo
@@ -1797,7 +1801,7 @@ projects:
   mkdocs_plugin: mike
   github_id: jimporter/mike
   pypi_id: mike
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: site-management
 - name: mkdocs-new-features-notifier
   mkdocs_plugin: mkdocs-new-features-notifier
@@ -1849,7 +1853,7 @@ projects:
   mkdocs_plugin: techdocs-core
   github_id: backstage/mkdocs-techdocs-core
   pypi_id: mkdocs-techdocs-core
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: site-management
 - name: same-dir
   mkdocs_plugin: same-dir
@@ -1913,7 +1917,7 @@ projects:
   mkdocs_plugin: include-markdown
   github_id: mondeja/mkdocs-include-markdown-plugin
   pypi_id: mkdocs-include-markdown-plugin
-  labels: [plugin]
+  labels: [plugin, ng-tested]
   category: snippets-include
 - name: meta-descriptions
   mkdocs_plugin: meta-descriptions
