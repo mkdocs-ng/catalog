@@ -1,0 +1,41 @@
+# One-off cleanup. Before 2026-11-01 the weekly update pushed an update/*
+# branch, a tag and a draft release each week but could never open its pull
+# request, so they piled up. The update now commits to main, so this only
+# needs to run once; it is safe to run again.
+name: remove-stale-updates
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only list what would be deleted"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  remove-stale-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete draft releases, their tags and update/* branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          run() {
+            if [ "$DRY_RUN" = "true" ]; then echo "would run: $*"; else echo "+ $*"; "$@"; fi
+          }
+          # Published releases and their tags are kept.
+          for tag in $(gh release list -R "$REPO" --limit 200 --json tagName,isDraft \
+              --jq '.[] | select(.isDraft) | .tagName'); do
+            run gh release delete "$tag" -R "$REPO" --yes
+            if gh api "repos/$REPO/git/ref/tags/$tag" >/dev/null 2>&1; then
+              run gh api -X DELETE "repos/$REPO/git/refs/tags/$tag"
+            fi
+          done
+          for ref in $(gh api "repos/$REPO/git/matching-refs/heads/update/" --jq '.[].ref'); do
+            run gh api -X DELETE "repos/$REPO/git/${ref}"
+          done
