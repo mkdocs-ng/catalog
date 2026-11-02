@@ -37,7 +37,9 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
 
 ### Automatic discovery
 
-`.github/scripts/discover.py` scans PyPI for packages whose name contains "mkdocs" and whose latest wheel declares a `mkdocs.plugins` or `mkdocs.themes` entry point. Packages the catalog doesn't list yet, with a GitHub repository and a release in the last two years, are written to [`discovery/candidates.yaml`](discovery/candidates.yaml) as ready-to-copy `projects.yaml` entries with a guessed category. To keep a package out of the suggestions for good (for example when its author asks), add its PyPI name to [`discovery/ignore.yaml`](discovery/ignore.yaml).
+Every week, before the list is regenerated, `.github/scripts/discover.py` adds new plugins and themes from PyPI to the end of `projects.yaml`. It looks at packages whose name contains "mkdocs" and whose latest wheel declares a `mkdocs.plugins` or `mkdocs.themes` entry point, and adds the ones with a GitHub repository and a release in the last two years. The category is guessed from the package summary, so feel free to move a project to a better one.
+
+To keep a package out for good (for example when its author asks), add its PyPI name to [`discovery/ignore.yaml`](discovery/ignore.yaml) and remove it from `projects.yaml`. To see what would be added without changing anything:
 
 ```bash
 pip install pyyaml

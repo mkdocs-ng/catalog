@@ -51,6 +51,14 @@ jobs:
         env:
           GENERATOR_REF: ${{ inputs.generator_ref || 'main' }}
 
+      - name: Add new plugins and themes from PyPI
+        # Appends MkDocs plugins and themes published on PyPI that the catalog
+        # doesn't list yet (see .github/scripts/discover.py). A package listed
+        # in discovery/ignore.yaml is never added. If PyPI can't be reached,
+        # or more than 50 new packages turn up at once, nothing changes.
+        continue-on-error: true
+        run: python .github/scripts/discover.py --add
+
       - name: Mark plugins tested on MkDocs NG
         # Reads the latest plugin compatibility report from mkdocs-ng/mkdocs.
         # If it can't be fetched, the labels stay as they are.
