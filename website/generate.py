@@ -332,8 +332,8 @@ def main() -> None:
         "pip install mkdocs-ng",
         "```",
         "",
-        "Read the [migration guide](https://mkdocs-ng.github.io/mkdocs/user-guide/migrating/) "
-        "or try [Sumi](https://mkdocs-ng.github.io/mkdocs-sumi/), the MkDocs NG theme.",
+        "Read the [migration guide](https://mkdocs-ng.org/user-guide/migrating/) "
+        "or try [Sumi](https://sumi.mkdocs-ng.org/), the MkDocs NG theme.",
         "",
     ]
     write(

@@ -4,7 +4,7 @@
 #   python website/generate.py && mkdocs serve -f website/mkdocs.yml
 site_name: MkDocs Catalog
 site_description: Plugins, themes and Markdown extensions for MkDocs NG and MkDocs, ranked and updated every week.
-site_url: https://mkdocs-ng.github.io/catalog/
+site_url: https://catalog.mkdocs-ng.org/
 repo_url: https://github.com/mkdocs-ng/catalog
 repo_name: mkdocs-ng/catalog
 edit_uri: ""
@@ -38,5 +38,5 @@ extra:
       link: https://github.com/mkdocs-ng/catalog
       name: GitHub
     - icon: brand-python
-      link: https://mkdocs-ng.github.io/mkdocs/
+      link: https://mkdocs-ng.org/
       name: MkDocs NG
