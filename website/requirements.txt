@@ -1,0 +1,2 @@
+mkdocs-ng>=1.9
+mkdocs-sumi>=0.1.2
