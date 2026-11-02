@@ -1,0 +1,5 @@
+/* MkDocs NG brand blue. mkdocs.yml sets the light value; this one keeps
+   links and highlights readable on the dark palette. */
+[data-theme="dark"] {
+    --sumi-accent: #6ea8ff;
+}

@@ -20,6 +20,8 @@
 
 This catalog lists {project_count} open-source projects in {category_count} categories. Projects are ranked by a quality score computed from GitHub and PyPI metrics. Projects marked <img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"> build on MkDocs NG in the weekly [plugin compatibility test](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml).
 
+Search and browse the catalog on its website: **[mkdocs-ng.github.io/catalog](https://mkdocs-ng.github.io/catalog/)**.
+
 Get started with MkDocs NG, a drop-in replacement for MkDocs 1.x:
 
 ```sh
