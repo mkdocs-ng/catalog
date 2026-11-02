@@ -35,6 +35,15 @@ Before opening an issue or pull request, please ensure that you adhere to the fo
 - Please use the following title format for the issue or pull request: `Add project: project-name`.
 - If a project doesn't fit into any of the pre-existing categories, it should go under the `Others` category by not assigning any category. You can also suggest a new category via the add or update category template on the [issue page](https://github.com/mkdocs-ng/catalog/issues/new/choose).
 
+### Automatic discovery
+
+`.github/scripts/discover.py` scans PyPI for packages whose name contains "mkdocs" and whose latest wheel declares a `mkdocs.plugins` or `mkdocs.themes` entry point. Packages the catalog doesn't list yet, with a GitHub repository and a release in the last two years, are written to [`discovery/candidates.yaml`](discovery/candidates.yaml) as ready-to-copy `projects.yaml` entries with a guessed category. To keep a package out of the suggestions for good (for example when its author asks), add its PyPI name to [`discovery/ignore.yaml`](discovery/ignore.yaml).
+
+```bash
+pip install pyyaml
+python .github/scripts/discover.py
+```
+
 ## Update a project
 
 If you like to suggest or contribute a project update, choose one of the following ways:

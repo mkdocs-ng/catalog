@@ -1,0 +1,5 @@
+# PyPI packages that discover.py should never suggest, one name per line.
+# Add a package here when its author asks to be left out, or when it isn't a
+# usable plugin or theme (personal site themes, test uploads, forks).
+- mkdocs      # the engines themselves, not plugins
+- mkdocs-ng
