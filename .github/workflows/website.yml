@@ -1,4 +1,4 @@
-# Builds the catalog website (https://mkdocs-ng.github.io/catalog/) with
+# Builds the catalog website (https://catalog.mkdocs-ng.org/) with
 # MkDocs NG and Sumi, and publishes it to GitHub Pages.
 #
 # The weekly update pushes with the workflow token, which doesn't start other

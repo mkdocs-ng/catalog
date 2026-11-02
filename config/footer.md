@@ -1,9 +1,9 @@
 ## Related Resources
 
-- [**MkDocs NG documentation**](https://mkdocs-ng.github.io/mkdocs/): user guide and configuration reference.
-- [**Writing your own plugins**](https://mkdocs-ng.github.io/mkdocs/dev-guide/plugins/): the plugin developer guide.
+- [**MkDocs NG documentation**](https://mkdocs-ng.org/): user guide and configuration reference.
+- [**Writing your own plugins**](https://mkdocs-ng.org/dev-guide/plugins/): the plugin developer guide.
 - [**Plugin compatibility test**](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml): popular plugins built on upstream MkDocs and MkDocs NG every week.
-- [**Sumi**](https://mkdocs-ng.github.io/mkdocs-sumi/): the documentation theme from the MkDocs NG team.
+- [**Sumi**](https://sumi.mkdocs-ng.org/): the documentation theme from the MkDocs NG team.
 - [**MkDocs gallery**](https://pawamoy.github.io/mkdocs-gallery/): screenshots of MkDocs themes.
 - [**Best-of lists**](https://best-of.org): other ranked lists of open-source projects, made with the same generator.
 

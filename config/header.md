@@ -20,7 +20,7 @@
 
 This catalog lists {project_count} open-source projects in {category_count} categories. Projects are ranked by a quality score computed from GitHub and PyPI metrics. Projects marked <img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"> build on MkDocs NG in the weekly [plugin compatibility test](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml).
 
-Search and browse the catalog on its website: **[mkdocs-ng.github.io/catalog](https://mkdocs-ng.github.io/catalog/)**.
+Search and browse the catalog on its website: **[catalog.mkdocs-ng.org](https://catalog.mkdocs-ng.org/)**.
 
 Get started with MkDocs NG, a drop-in replacement for MkDocs 1.x:
 
@@ -28,11 +28,11 @@ Get started with MkDocs NG, a drop-in replacement for MkDocs 1.x:
 pip install mkdocs-ng
 ```
 
-Read the [MkDocs NG documentation](https://mkdocs-ng.github.io/mkdocs/) for more. To add or update a project, open an [issue](https://github.com/mkdocs-ng/catalog/issues/new/choose) or edit [projects.yaml](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml).
+Read the [MkDocs NG documentation](https://mkdocs-ng.org/) for more. To add or update a project, open an [issue](https://github.com/mkdocs-ng/catalog/issues/new/choose) or edit [projects.yaml](https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml).
 
 ## From the MkDocs NG team
 
-- [**Sumi**](https://mkdocs-ng.github.io/mkdocs-sumi/): a local-first documentation theme with a landing page, blog, releases and print edition. `pip install mkdocs-sumi`
+- [**Sumi**](https://sumi.mkdocs-ng.org/): a local-first documentation theme with a landing page, blog, releases and print edition. `pip install mkdocs-sumi`
 - [**MkDocs NG Material**](https://github.com/mkdocs-ng/mkdocs-material): Material for MkDocs, maintained for MkDocs NG with security and bug fixes. `pip install mkdocs-ng-material`
 
 Both are also listed, and ranked like any other project, under [Theming](#-theming).
