@@ -1,0 +1,34 @@
+# PyPI packages that discover.py never adds to the catalog.
+#
+# Add a package here when its author asks to be left out, or when it isn't
+# meant for other sites: themes and plugins built only for one organization's
+# or one person's own docs, and packages whose metadata points to a
+# placeholder repository.
+
+# The engines themselves, not plugins.
+- mkdocs
+- mkdocs-ng
+
+# Built for one organization's or person's own docs.
+- mkdocs-terok
+- mkdocs-ultralytics-plugin
+- mkdocs-material-ringcentral
+- mkdocs-mpgtheme-plugin
+- mkdocs-minyilife-plugin
+- mkdocs-material-ekgf
+- mkdocs-rsoxs
+- mkdocs-idm
+- mkdocs-tacc
+- ons-mkdocs-theme
+- qctrl-mkdocs-theme
+- intility-bifrost-mkdocs
+- adi-mkdocs-harmonic
+- mkdocs-duon
+- mkdocs-fiveorbs
+- mkdocs-ubleiden-theme
+- mkdocs-material-joapuiib
+- mkdocs-webis
+
+# Placeholder repository URL (github.com/yourusername/...).
+- mkdocs-excel-plugin
+- mkdocs-freetext
