@@ -58,6 +58,8 @@ jobs:
         # or more than 50 new packages turn up at once, nothing changes.
         continue-on-error: true
         run: python .github/scripts/discover.py --add
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Mark plugins tested on MkDocs NG
         # Reads the latest plugin compatibility report from mkdocs-ng/mkdocs.

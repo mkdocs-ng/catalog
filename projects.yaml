@@ -1970,12 +1970,6 @@ projects:
   pypi_id: mkdocs-treeview
   labels: [plugin]
   category: markdown
-- name: mkdocs-texsmith
-  mkdocs_plugin: [texsmith, texsmith.counters, texsmith.index]
-  github_id: yves-chevallier/mkdocs-texsmith
-  pypi_id: mkdocs-texsmith
-  labels: [plugin]
-  category: site-conversion
 - name: mkdocs-resolve-absolute-urls-plugin
   mkdocs_plugin: resolve-absolute-urls
   github_id: ACCESS-NRI/mkdocs_resolve_absolute_urls_plugin
@@ -2185,24 +2179,12 @@ projects:
   pypi_id: mkdocs-owl-api
   labels: [plugin]
   category: api-docs
-- name: mkdocs-pivot-table
-  mkdocs_plugin: mkdocs_pivot_table
-  github_id: Aldo-f/mkdocs-pivot-table
-  pypi_id: mkdocs-pivot-table
-  labels: [plugin]
-  category: charts
 - name: mkdocs-towncrier
   mkdocs_plugin: towncrier
   github_id: davfsa/mkdocs-towncrier
   pypi_id: mkdocs-towncrier
   labels: [plugin]
   category: git-info
-- name: mkdocs-raw-markdown
-  mkdocs_plugin: mkdocs_raw_markdown
-  github_id: Aldo-f/mkdocs-raw-markdown
-  pypi_id: mkdocs-raw-markdown
-  labels: [plugin]
-  category: ai-llm
 - name: mkdocs-quiz
   mkdocs_plugin: mkdocs_quiz
   github_id: ewels/mkdocs-quiz
@@ -2221,13 +2203,6 @@ projects:
   pypi_id: mkdocs-autotranslate
   labels: [plugin]
   category: i18n-l10n
-- name: mkdocs-neoabs
-  mkdocs_theme: neoabs
-  mkdocs_plugin: neoabs
-  github_id: rkriad585/mkdocs-neoabs
-  pypi_id: mkdocs-neoabs
-  labels: [theme, plugin]
-  category: theming
 - name: mkdocs-related-content-plugin
   mkdocs_plugin: related-content
   github_id: guts/mkdocs-related-content
@@ -2246,12 +2221,6 @@ projects:
   pypi_id: mkdocs-webmention
   labels: [plugin]
   category: integrations
-- name: mkdocs-doxybook2
-  mkdocs_plugin: mkdoxybook2
-  github_id: ACoderOrHacker/mkdoxybook2
-  pypi_id: mkdocs-doxybook2
-  labels: [plugin]
-  category: api-docs
 - name: mkdocs-websem
   mkdocs_plugin: [websem-build, websem-search]
   github_id: WebsemAI/Websem
@@ -2384,18 +2353,6 @@ projects:
   pypi_id: mkdocs-to-kirby
   labels: [plugin]
   category: site-conversion
-- name: mkdocs-header-dropdown
-  mkdocs_plugin: header-dropdown
-  github_id: cms-cat/mkdocs-header-dropdown
-  pypi_id: mkdocs-header-dropdown
-  labels: [plugin]
-  category: nav-pages
-- name: mkdocs-beacon-search
-  mkdocs_plugin: beacon-search
-  github_id: Mirantis/beacon-mkdocs-plugin
-  pypi_id: mkdocs-beacon-search
-  labels: [plugin]
-  category: search-toc
 - name: mkdocs-asciidoctor-backend
   mkdocs_plugin: asciidoctor_backend
   github_id: aireilly/mkdocs-asciidoctor-backend
@@ -2444,18 +2401,6 @@ projects:
   pypi_id: mkdocs-katex-ssr
   labels: [plugin]
   category: markdown
-- name: mkdocs-snakemake-rule-plugin
-  mkdocs_plugin: snakemake-rule
-  github_id: smeds/mkdocs-snakemake-rule-plugin
-  pypi_id: mkdocs-snakemake-rule-plugin
-  labels: [plugin]
-  category: api-docs
-- name: mkdocs-yaml-schema-plugin
-  mkdocs_plugin: yaml-schema
-  github_id: smeds/mkdocs-yaml-schema-plugin
-  pypi_id: mkdocs-yaml-schema-plugin
-  labels: [plugin]
-  category: api-docs
 - name: mkdocs-auto-tags
   mkdocs_plugin: auto-tags
   github_id: czarny/mkdocs-auto-tags
@@ -2637,12 +2582,6 @@ projects:
   pypi_id: mkdocs-search-links-plugin
   labels: [plugin]
   category: search-toc
-- name: mkdocs-codeforces-plugin
-  mkdocs_plugin: codeforces
-  github_id: Eurekaimer/mkdocs-codeforces-plugin
-  pypi_id: mkdocs-codeforces-plugin
-  labels: [plugin]
-  category: integrations
 - name: mkdocs-extrafiles
   mkdocs_plugin: extrafiles
   github_id: paddy74/mkdocs-extrafiles
@@ -2657,7 +2596,7 @@ projects:
   category: code-exec-templating
 - name: mkdocs-link-cards
   mkdocs_plugin: link-cards
-  github_id: markeyser/mkdocs-link-cards
+  github_id: marcoskeyser/mkdocs-link-cards
   pypi_id: mkdocs-link-cards
   labels: [plugin]
   category: links-refs
@@ -2669,7 +2608,7 @@ projects:
   category: links-refs
 - name: mkdocs-include-stubs-plugin
   mkdocs_plugin: include-stubs
-  github_id: ACCESS-NRI/mkdocs_include_stubs_plugin
+  github_id: atteggiani/mkdocs_include_stubs_plugin
   pypi_id: mkdocs-include-stubs-plugin
   labels: [plugin]
   category: nav-pages
@@ -2783,12 +2722,6 @@ projects:
   pypi_id: mkdocs-audiotag
   labels: [plugin]
   category: snippets-include
-- name: mkdocs-gitlab-wiki-edit-url
-  mkdocs_plugin: gitlab-wiki-edit-url
-  github_id: auke-/mkdocs-gitlab-wiki-edit-url
-  pypi_id: mkdocs-gitlab-wiki-edit-url
-  labels: [plugin]
-  category: git-info
 - name: mkdocs-gemini-chatbot
   mkdocs_plugin: gemini-chatbot
   github_id: vimmoos/mkdocs-gemini-chatbot
@@ -2837,18 +2770,6 @@ projects:
   pypi_id: mkdocs-export-confluence
   labels: [plugin]
   category: site-conversion
-- name: mkdocs-gemini-chat
-  mkdocs_plugin: gemini-chat
-  github_id: nolanblevins/mkdocs-gemini-chat
-  pypi_id: mkdocs-gemini-chat
-  labels: [plugin]
-  category: ai-llm
-- name: draftmk-mkdocs-role-filter-plugin
-  mkdocs_plugin: role-filter
-  github_id: jonmatum/draftmk-mkdocs-role-filter-plugin
-  pypi_id: draftmk-mkdocs-role-filter-plugin
-  labels: [plugin]
-  category: site-management
 - name: mkdocs-snippets
   mkdocs_plugin: snippets
   github_id: BetonQuest/mkdocs-snippets
@@ -2873,12 +2794,6 @@ projects:
   pypi_id: mkdocs-redoc-tag
   labels: [plugin]
   category: api-docs
-- name: mkdocs-publish-control
-  mkdocs_plugin: publish-control
-  github_id: gabrielbdornas/mkdocs-publish-control
-  pypi_id: mkdocs-publish-control
-  labels: [plugin]
-  category: nav-pages
 - name: mkdocs-variable-randomizer-plugin
   mkdocs_plugin: variable_randomizer
   github_id: six-two/mkdocs-variable-randomizer-plugin
@@ -2940,18 +2855,6 @@ projects:
   pypi_id: mkdocs-import-stat-plugin
   labels: [plugin]
   category: snippets-include
-- name: mkdocs-docuq
-  mkdocs_plugin: docuq
-  github_id: SmartAndPoint/mkdocs-docuq
-  pypi_id: mkdocs-docuq
-  labels: [plugin]
-  category: ai-llm
-- name: mkdocs-pdf-viewer
-  mkdocs_plugin: pdf_viewer
-  github_id: niclasheinz/mkdocs-pdf-viewer
-  pypi_id: mkdocs-pdf-viewer
-  labels: [plugin]
-  category: snippets-include
 - name: mkdocs-gherkin-plugin
   mkdocs_plugin: gherkin-plugin
   github_id: sashokbg/mkdocs-gherkin-plugin
@@ -2991,7 +2894,7 @@ projects:
   category: code-exec-templating
 - name: mkdocs-embed-file-plugin
   mkdocs_plugin: embed_file
-  github_id: ObsidianPublisher/mkdocs-embed_file-plugin
+  github_id: Enveloppe/mkdocs-embed-file
   pypi_id: mkdocs-embed-file-plugin
   labels: [plugin]
   category: snippets-include
@@ -3025,42 +2928,12 @@ projects:
   pypi_id: mkdocs-epigraph
   labels: [plugin]
   category: markdown
-- name: mkdocs-qr-plugin
-  mkdocs_plugin: qr
-  github_id: miguelhatricks/mkdocs-qr-plugin
-  pypi_id: mkdocs-qr-plugin
-  labels: [plugin]
-  category: html-css
-- name: mkdocs-caption
-  mkdocs_plugin: caption
-  github_id: tobiasah/mkdocs-caption
-  pypi_id: mkdocs-caption
-  labels: [plugin]
-  category: charts
 - name: mkdocs-blueprintue
   mkdocs_plugin: blueprintue
   github_id: kisspread/uebp
   pypi_id: mkdocs-blueprintue
   labels: [plugin]
   category: charts
-- name: mkdocs-awesome-pages-plugin
-  mkdocs_plugin: awesome-pages
-  github_id: lukasgeiter/mkdocs-awesome-pages-plugin
-  pypi_id: mkdocs-awesome-pages-plugin
-  labels: [plugin]
-  category: nav-pages
-- name: mkdocs-drawio-converter
-  mkdocs_plugin: drawio-converter
-  github_id: rajneesh-ril/mkdocs-drawio-converter
-  pypi_id: mkdocs-drawio-converter
-  labels: [plugin]
-  category: charts
-- name: mkdocs-monoweb-theme
-  mkdocs_theme: monoweb
-  github_id: scampion/mkdocs-monoweb-theme
-  pypi_id: mkdocs-monoweb-theme
-  labels: [theme]
-  category: theming
 - name: mkdocs-content-tabs
   mkdocs_plugin: content-tabs
   github_id: epleone/mkdocs-content-tabs

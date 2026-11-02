@@ -8,11 +8,12 @@ read from the wheel, through HTTP range requests, so a full scan takes a few
 minutes and needs no token.
 
 A package is skipped when it is already in projects.yaml, is listed in
-discovery/ignore.yaml, has no GitHub repository, points to a repository the
-catalog already lists (forks and re-uploads), or had no release in the last
-two years. The rest become projects.yaml entries with a best-guess category:
-printed by default, written to a file with --output, or appended to
-projects.yaml with --add (the weekly update does this).
+discovery/ignore.yaml, has no public, unarchived GitHub repository, points to
+a repository the catalog already lists (forks, re-uploads and renamed
+repositories), or had no release in the last two years. The rest become
+projects.yaml entries with a best-guess category: printed by default, written
+to a file with --output, or appended to projects.yaml with --add (the weekly
+update does this). Set GITHUB_TOKEN for the repository checks.
 
 Usage: discover.py [--add] [--max-added 50] [--output FILE] [--max-age-days 730]
 """
@@ -24,6 +25,7 @@ import concurrent.futures
 import configparser
 import io
 import json
+import os
 import re
 import sys
 import time
@@ -145,6 +147,28 @@ def guess_category(name: str, summary: str, is_theme: bool) -> str | None:
         if re.search(pattern, text):
             return category
     return None
+
+
+def canonical_repo(repo: str) -> str | None:
+    """The repository's current owner/name, or None if GitHub doesn't have it.
+
+    best-of drops projects whose repository is gone, and a renamed repository
+    may turn out to be one the catalog already lists. Set GITHUB_TOKEN for a
+    higher rate limit; a failed check also returns None, so the package is
+    simply tried again next week.
+    """
+    request = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers={"User-Agent": USER_AGENT})
+    if token := os.environ.get("GITHUB_TOKEN"):
+        request.add_header("Authorization", f"Bearer {token}")
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:  # follows renames
+            data = json.loads(response.read())
+    except OSError as e:
+        print(f"  could not check {repo}: {e}", file=sys.stderr)
+        return None
+    if data.get("private") or data.get("archived"):
+        return None
+    return data["full_name"]
 
 
 def inspect(name: str) -> dict:
@@ -286,14 +310,17 @@ def main() -> int:
             reason = "yanked"
         elif not package["github_id"]:
             reason = "no GitHub repository"
-        elif package["github_id"].lower() in known_repos:
-            reason = "repository already listed"
-        elif package["github_id"].lower() in seen_repos:
-            reason = "same repository as another candidate"
         elif (package["released"] or "") < cutoff:
             reason = f"no release in {args.max_age_days} days"
+        elif not (repo := canonical_repo(package["github_id"])):
+            reason = "GitHub repository not found or not checked"
+        elif repo.lower() in known_repos:
+            reason = "repository already listed"
+        elif repo.lower() in seen_repos:
+            reason = "same repository as another candidate"
         else:
-            seen_repos.add(package["github_id"].lower())
+            package["github_id"] = repo
+            seen_repos.add(repo.lower())
             category = guess_category(package["name"], package["summary"], is_theme)
             category = category if category in categories else None
             project = to_project(package, category)

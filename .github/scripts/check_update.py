@@ -39,7 +39,10 @@ def main(old_readme: str, new_readme: str, projects_csv: str) -> None:
 
     with open(projects_csv, newline="") as f:
         rows = [row for row in csv.DictReader(f) if row.get("github_id")]
-    with_data = sum(1 for row in rows if row.get("star_count"))
+    # A repository with no stars has an empty star_count, so look at any
+    # field that only GitHub fills in.
+    github_fields = ("star_count", "created_at", "updated_at", "last_commit_pushed_at")
+    with_data = sum(1 for row in rows if any(row.get(field) for field in github_fields))
     coverage = with_data / len(rows) if rows else 1.0
     print(f"GitHub data: {with_data}/{len(rows)} projects ({coverage:.0%})")
 
