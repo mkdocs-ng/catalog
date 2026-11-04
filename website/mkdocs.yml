@@ -21,6 +21,13 @@ theme:
 extra_css:
   - css/extra.css
 
+extra_javascript:
+  - js/catalog.js
+
+# Keeps the generated project pages (plugins/) out of the sidebar.
+hooks:
+  - hooks.py
+
 plugins:
   - search
   - llms_txt:

@@ -3,3 +3,29 @@
 [data-theme="dark"] {
     --sumi-accent: #6ea8ff;
 }
+
+/* All projects page: filter bar and sortable headers (js/catalog.js). */
+.catalog-filters { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin: 0 0 1em; }
+.catalog-filters[hidden] { display: none; }
+.catalog-filters input[type="search"], .catalog-filters select {
+    padding: 6px 10px; border: 1px solid var(--sumi-line-2); border-radius: 8px;
+    background: var(--sumi-bg-elev); color: var(--sumi-fg); font: inherit; font-size: 14px;
+}
+.catalog-filters input[type="search"] { flex: 1 1 16em; min-width: 0; }
+.catalog-filters label { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; white-space: nowrap; }
+.catalog-count { color: var(--sumi-fg-2); font-size: 14px; margin-left: auto; }
+.catalog-all th button {
+    padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer;
+}
+.catalog-all th[aria-sort="descending"] button::after { content: " ↓"; }
+.catalog-all th[aria-sort="ascending"] button::after { content: " ↑"; }
+.catalog-all td small { color: var(--sumi-fg-2); }
+.catalog-all .catalog-inactive { color: var(--sumi-fg-3); font-style: italic; }
+.catalog-all td:nth-child(n+4) { white-space: nowrap; }
+
+/* Project pages: the facts table needs no header row. */
+.catalog-facts thead { display: none; }
+.catalog-facts td:first-child { width: 11em; color: var(--sumi-fg-2); }
+
+/* Category tables: keep numbers and dates on one line. */
+.catalog-summary td:nth-child(n+3) { white-space: nowrap; }
