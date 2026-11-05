@@ -88,11 +88,11 @@ def as_date(value: str) -> datetime | None:
 
 def short_number(n: int) -> str:
     if n >= 1_000_000:
-        return f"{n / 1_000_000:.1f}M"
+        return f"{n / 1_000_000:.1f}".removesuffix(".0") + "M"
     if n >= 10_000:
         return f"{n / 1000:.0f}k"
     if n >= 1000:
-        return f"{n / 1000:.1f}k"
+        return f"{n / 1000:.1f}".removesuffix(".0") + "k"
     return str(n)
 
 
@@ -528,6 +528,7 @@ def main() -> None:
         for p in top
     ]
     total = len(projects)
+    downloads = sum(p["downloads"] for p in projects)
     front_matter = {
         "template": "landing.html",
         "title": "MkDocs Catalog",
@@ -552,6 +553,7 @@ def main() -> None:
                     {"value": str(total), "label": "projects"},
                     {"value": str(len(cards)), "label": "categories"},
                     {"value": str(len(tested)), "label": "tested on MkDocs NG every week"},
+                    {"value": short_number(downloads), "label": "PyPI downloads a month"},
                 ],
             },
             {"type": "content"},
