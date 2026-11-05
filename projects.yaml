@@ -2972,3 +2972,9 @@ projects:
   shadowed: [mkdocs_plugin]
   labels: [plugin]
   category: site-management
+- name: mkdocs-page-actions
+  mkdocs_plugin: page-actions
+  github_id: byrnereese/mkdocs-page-actions
+  pypi_id: mkdocs-page-actions
+  labels: [plugin]
+  category: ai-llm
