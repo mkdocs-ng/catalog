@@ -2978,3 +2978,9 @@ projects:
   pypi_id: mkdocs-page-actions
   labels: [plugin]
   category: ai-llm
+- name: mkdocs-onlinecompiler
+  mkdocs_plugin: onlinecompiler
+  github_id: onlinecompiler-io/mkdocs-onlinecompiler
+  pypi_id: mkdocs-onlinecompiler
+  labels: [plugin]
+  category: code-exec-templating

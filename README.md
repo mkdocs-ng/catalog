@@ -6,19 +6,19 @@
 <h1 align="center">MkDocs Catalog</h1>
 
 <p align="center">
-    <strong>470 plugins, themes and Markdown extensions for <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs NG</a> and MkDocs, ranked and updated every week.</strong>
+    <strong>480 plugins, themes and Markdown extensions for <a href="https://github.com/mkdocs-ng/mkdocs">MkDocs NG</a> and MkDocs, ranked and updated every week.</strong>
     <br>
     <em>MkDocs NG: Write Markdown. Ship docs.</em>
 </p>
 
 <p align="center">
-    <a href="#contents" title="Project count"><img src="https://img.shields.io/badge/projects-470-0061FE.svg" alt="Project count"></a>
+    <a href="#contents" title="Project count"><img src="https://img.shields.io/badge/projects-480-0061FE.svg" alt="Project count"></a>
     <a href="https://github.com/mkdocs-ng/catalog/releases" title="Catalog updates"><img src="https://img.shields.io/github/release-date/mkdocs-ng/catalog?color=011C46&label=updated" alt="Last updated"></a>
     <a href="https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml" title="Plugin compatibility test"><img src="https://img.shields.io/github/actions/workflow/status/mkdocs-ng/mkdocs/compat.yml?branch=main&label=plugin%20compatibility" alt="Plugin compatibility"></a>
     <a href="#contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-0061FE.svg" alt="Contributions welcome"></a>
 </p>
 
-This catalog lists 470 open-source projects in 18 categories. Projects are ranked by a quality score computed from GitHub and PyPI metrics. Projects marked <img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"> build on MkDocs NG in the weekly [plugin compatibility test](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml).
+This catalog lists 480 open-source projects in 18 categories. Projects are ranked by a quality score computed from GitHub and PyPI metrics. Projects marked <img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"> build on MkDocs NG in the weekly [plugin compatibility test](https://github.com/mkdocs-ng/mkdocs/actions/workflows/compat.yml).
 
 Search and browse the catalog on its website: **[catalog.mkdocs-ng.org](https://catalog.mkdocs-ng.org/)**.
 
@@ -43,7 +43,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 - [💻 API documentation building](#-api-documentation-building) _32 projects_
 - [💬 Blogging](#-blogging) _8 projects_
 - [📊 Charts, Images, Tables & Graphs](#-charts-images-tables--graphs) _58 projects_
-- [🤖 Code execution, variables & templating](#-code-execution-variables--templating) _35 projects_
+- [🤖 Code execution, variables & templating](#-code-execution-variables--templating) _36 projects_
 - [🌲 Git repos & info](#-git-repos--info) _17 projects_
 - [🌈 HTML processing & CSS styling](#-html-processing--css-styling) _24 projects_
 - [🧠 AI & LLMs](#-ai--llms) _18 projects_
@@ -90,7 +90,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/material.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/squidfunk/mkdocs-material) (👨‍💻 330 · 🔀 4K · 📦 97K · 📋 2.7K - 0% open · ⏱️ 30.10.2026)
+- [GitHub](https://github.com/squidfunk/mkdocs-material) (👨‍💻 340 · 🔀 4K · 📦 98K · 📋 2.7K - 0% open · ⏱️ 07.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-material) (📥 12M / month):
 	```
 	pip install mkdocs-material
@@ -112,7 +112,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/asiffer/mkdocs-shadcn">Shadcn</a></b>  - 🥇24 ·  ⭐ 220 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Documentation that also shines.</summary>
 
-- [GitHub](https://github.com/asiffer/mkdocs-shadcn) (👨‍💻 9 · 🔀 28 · 📥 380 · 📦 100 · 📋 65 - 20% open · ⏱️ 03.11.2026)
+- [GitHub](https://github.com/asiffer/mkdocs-shadcn) (👨‍💻 9 · 🔀 29 · 📥 550 · 📦 100 · 📋 65 - 16% open · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-shadcn) (📥 36K / month):
 	```
 	pip install mkdocs-shadcn
@@ -134,7 +134,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/cinder.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/chrissimpkins/cinder) (👨‍💻 23 · 🔀 100 · 📥 1K · 📦 710 · 📋 51 - 31% open · ⏱️ 05.01.2021)
+- [GitHub](https://github.com/chrissimpkins/cinder) (👨‍💻 23 · 🔀 100 · 📥 1K · 📦 720 · 📋 51 - 31% open · ⏱️ 05.01.2021)
 - [PyPi](https://pypi.org/project/mkdocs-cinder) (📥 5K / month):
 	```
 	pip install mkdocs-cinder
@@ -144,7 +144,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: cinder
    ```
 </details>
-<details><summary><b><a href="https://github.com/jaywhj/mkdocs-materialx">mkdocs-materialx</a></b>  - 🥇22 ·  ⭐ 170 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MaterialX, the next generation of mkdocs-material.</summary>
+<details><summary><b><a href="https://github.com/jaywhj/mkdocs-materialx">mkdocs-materialx</a></b>  - 🥇22 ·  ⭐ 180 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MaterialX, the next generation of mkdocs-material.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/materialx/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/materialx.png" width="400" align="right">
@@ -197,7 +197,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/simple-blog.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/FernandoCelmer/mkdocs-simple-blog) (👨‍💻 6 · 🔀 13 · 📦 98 · 📋 50 - 6% open · ⏱️ 18.09.2026)
+- [GitHub](https://github.com/FernandoCelmer/mkdocs-simple-blog) (👨‍💻 6 · 🔀 14 · 📦 98 · 📋 63 - 3% open · ⏱️ 08.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-simple-blog) (📥 680 / month):
 	```
 	pip install mkdocs-simple-blog
@@ -260,7 +260,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: bootstrap
    ```
 </details>
-<details><summary><b><a href="https://github.com/ansible/mkdocs-ansible">mkdocs-ansible</a></b>  - 🥈17 ·  ⭐ 12 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Ansible MkDocs Theme based on Material.</summary>
+<details><summary><b><a href="https://github.com/ansible/mkdocs-ansible">mkdocs-ansible</a></b>  - 🥈17 ·  ⭐ 12 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Ansible MkDocs Theme based on Material.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/ansible/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/ansible.png" width="400" align="right">
@@ -310,7 +310,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/buvis/mkdocs-zettelkasten">Zettelkasten</a></b>  - 🥈15 ·  ⭐ 27 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>This is a Zettelkasten theme and plugin for MkDocs. It renders the MkDocs pages as cards (zettels).</summary>
 
-- [GitHub](https://github.com/buvis/mkdocs-zettelkasten) (👨‍💻 5 · 🔀 3 · 📥 89 · 📦 7 · ⏱️ 28.10.2026)
+- [GitHub](https://github.com/buvis/mkdocs-zettelkasten) (👨‍💻 5 · 🔀 3 · 📥 92 · 📦 7 · ⏱️ 09.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-zettelkasten) (📥 120 / month):
 	```
 	pip install mkdocs-zettelkasten
@@ -325,45 +325,13 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - zettelkasten
    ```
 </details>
-<details><summary><b><a href="https://github.com/wsoft-ws/lantana">Lantana</a></b>  - 🥈14 ·  ⭐ 26 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Lantana MKDocsHTML.</summary>
-
-<a href="https://pawamoy.github.io/mkdocs-gallery/themes/lantana/">
-<img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/lantana.png" width="400" align="right">
-</a>
-
-- [GitHub](https://github.com/wsoft-ws/lantana) (👨‍💻 6 · 🔀 2 · 📥 460 · 📦 8 · 📋 20 - 10% open · ⏱️ 03.07.2025)
-- [PyPi](https://pypi.org/project/lantana) (📥 350 / month):
-	```
-	pip install lantana
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
-   ```yaml
-   theme: lantana
-   ```
-</details>
-<details><summary><b><a href="https://github.com/swan-cern/mkdocs-swan">SWAN</a></b>  - 🥈14 ·  ⭐ 8 · <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>SWAN MkDocs theme.</summary>
-
-<a href="https://pawamoy.github.io/mkdocs-gallery/themes/swan/">
-<img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/swan.png" width="400" align="right">
-</a>
-
-- [GitHub](https://github.com/swan-cern/mkdocs-swan) (👨‍💻 8 · 🔀 6 · 📦 13 · ⏱️ 24.09.2026)
-- [PyPi](https://pypi.org/project/mkdocs-swan) (📥 1.7K / month):
-	```
-	pip install mkdocs-swan
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
-   ```yaml
-   theme: swan
-   ```
-</details>
-<details><summary><b><a href="https://github.com/mkdocs-ng/mkdocs-material">MkDocs NG Material</a></b>  - 🥈14 ·  ⭐ 3 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Material for MkDocs, maintained for MkDocs NG with security and bug fixes.</summary>
+<details><summary><b><a href="https://github.com/mkdocs-ng/mkdocs-material">MkDocs NG Material</a></b>  - 🥈15 ·  ⭐ 3 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Material for MkDocs, maintained for MkDocs NG with security and bug fixes.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/material/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/material.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/mkdocs-ng/mkdocs-material) (👨‍💻 330 · 📋 2 - 50% open · ⏱️ 02.11.2026)
+- [GitHub](https://github.com/mkdocs-ng/mkdocs-material) (👨‍💻 330 · 📋 2 - 50% open · ⏱️ 11.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-ng-material) (📥 210 / month):
 	```
 	pip install mkdocs-ng-material
@@ -381,6 +349,38 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - search
      - social
      - tags
+   ```
+</details>
+<details><summary><b><a href="https://github.com/wsoft-ws/lantana">Lantana</a></b>  - 🥈14 ·  ⭐ 26 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Lantana MKDocsHTML.</summary>
+
+<a href="https://pawamoy.github.io/mkdocs-gallery/themes/lantana/">
+<img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/lantana.png" width="400" align="right">
+</a>
+
+- [GitHub](https://github.com/wsoft-ws/lantana) (👨‍💻 6 · 🔀 2 · 📥 470 · 📦 8 · 📋 20 - 10% open · ⏱️ 03.07.2025)
+- [PyPi](https://pypi.org/project/lantana) (📥 350 / month):
+	```
+	pip install lantana
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: lantana
+   ```
+</details>
+<details><summary><b><a href="https://github.com/swan-cern/mkdocs-swan">SWAN</a></b>  - 🥈14 ·  ⭐ 8 · <code><a href="http://bit.ly/3pwmjO5">❗️AGPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>SWAN MkDocs theme.</summary>
+
+<a href="https://pawamoy.github.io/mkdocs-gallery/themes/swan/">
+<img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/swan.png" width="400" align="right">
+</a>
+
+- [GitHub](https://github.com/swan-cern/mkdocs-swan) (👨‍💻 8 · 🔀 6 · 📦 13 · ⏱️ 10.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-swan) (📥 1.7K / month):
+	```
+	pip install mkdocs-swan
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: swan
    ```
 </details>
 <details><summary><b><a href="https://github.com/TEParsons/torillic">Torillic</a></b>  - 🥈12 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/search?query=CC0-1.0">❗️CC0-1.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>A D&D inspired theme for styling TTRPG notes and resources.</summary>
@@ -421,7 +421,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/pixel-lab.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/trained-by-humans/mkdocs-pixel-lab) (👨‍💻 2 · 🔀 1 · 📥 72 · 📋 19 - 78% open · ⏱️ 04.11.2026)
+- [GitHub](https://github.com/trained-by-humans/mkdocs-pixel-lab) (👨‍💻 2 · 🔀 1 · 📥 72 · 📋 20 - 80% open · ⏱️ 10.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-pixel-lab) (📥 200 / month):
 	```
 	pip install mkdocs-pixel-lab
@@ -481,7 +481,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - bootstrap4-tables
    ```
 </details>
-<details><summary><b><a href="https://github.com/Paul-Riviere/mkdocs-curriculum-vitae">mkdocs-curriculum-vitae</a></b>  - 🥉10 ·  ⭐ 7 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>A simple MkDocs theme, designed to make your curriculum vitae (CV) with minimal configuration, and several themes.</summary>
+<details><summary><b><a href="https://github.com/Paul-Riviere/mkdocs-curriculum-vitae">mkdocs-curriculum-vitae</a></b>  - 🥉10 ·  ⭐ 8 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>A simple MkDocs theme, designed to make your curriculum vitae (CV) with minimal configuration, and several themes.</summary>
 
 - [GitHub](https://github.com/Paul-Riviere/mkdocs-curriculum-vitae) (👨‍💻 3 · 🔀 1 · 📦 3 · 📋 47 - 23% open · ⏱️ 12.11.2025)
 - [PyPi](https://pypi.org/project/mkdocs-curriculum-vitae) (📥 45 / month):
@@ -493,13 +493,34 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: curriculum-vitae
    ```
 </details>
+<details><summary><b><a href="https://github.com/mkdocs-ng/mkdocs-sumi">Sumi</a></b>  - 🥉10 · 🐣 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Local-first documentation theme for MkDocs NG with a landing page, blog, releases and print edition.</summary>
+
+<a href="https://github.com/mkdocs-ng/mkdocs-sumi">
+<img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/screenshots/sumi.png" width="400" align="right">
+</a>
+
+- [GitHub](https://github.com/mkdocs-ng/mkdocs-sumi) (👨‍💻 3 · 📦 4 · ⏱️ 12.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-sumi):
+	```
+	pip install mkdocs-sumi
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
+   ```yaml
+   theme: sumi
+   ```
+   Extras:
+   ```yaml
+   plugins:
+     - sumi
+   ```
+</details>
 <details><summary><b><a href="https://github.com/TEParsons/mkdocs-landing">Landing</a></b>  - 🥉9 ·  ⭐ 29 · <code><a href="https://tldrlegal.com/search?query=CC0-1.0">❗️CC0-1.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>An mkdocs theme geared towards making a personal landing page, with simpler navigation and heavily customisable style..</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/landing/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/landing.png" width="400" align="right">
 </a>
 
-- [GitHub](https://github.com/TEParsons/mkdocs-landing) (👨‍💻 5 · 🔀 3 · 📥 7 · 📦 8 · 📋 2 - 50% open · ⏱️ 01.10.2026)
+- [GitHub](https://github.com/TEParsons/mkdocs-landing) (👨‍💻 5 · 🔀 3 · 📥 12 · 📦 8 · 📋 2 - 50% open · ⏱️ 01.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-landing) (📥 72 / month):
 	```
 	pip install mkdocs-landing
@@ -589,28 +610,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: ivory
    ```
 </details>
-<details><summary><b><a href="https://github.com/mkdocs-ng/mkdocs-sumi">Sumi</a></b>  - 🥉8 · 🐣 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Local-first documentation theme for MkDocs NG with a landing page, blog, releases and print edition.</summary>
-
-<a href="https://github.com/mkdocs-ng/mkdocs-sumi">
-<img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/screenshots/sumi.png" width="400" align="right">
-</a>
-
-- [GitHub](https://github.com/mkdocs-ng/mkdocs-sumi) (👨‍💻 2 · ⏱️ 05.11.2026)
-- [PyPi](https://pypi.org/project/mkdocs-sumi):
-	```
-	pip install mkdocs-sumi
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#theme):
-   ```yaml
-   theme: sumi
-   ```
-   Extras:
-   ```yaml
-   plugins:
-     - sumi
-   ```
-</details>
-<details><summary><b><a href="https://github.com/smallzh/mkdocs-smzhbook-theme">mkdocs-smzhbook-theme</a></b>  - 🥉8 · ➕ · <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>MkDocsTheme.</summary>
+<details><summary><b><a href="https://github.com/smallzh/mkdocs-smzhbook-theme">mkdocs-smzhbook-theme</a></b>  - 🥉8 · <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>MkDocsTheme.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/smzhbook/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/smzhbook.png" width="400" align="right">
@@ -744,7 +744,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: moonstone
    ```
 </details>
-<details><summary><b><a href="https://github.com/durera/mkdocs-carbon">mkdocs-carbon</a></b>  - 🥉6 ·  ⭐ 5 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/durera/mkdocs-carbon">mkdocs-carbon</a></b>  - 🥉6 ·  ⭐ 6 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/carbon/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/carbon.png" width="400" align="right">
@@ -804,7 +804,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: docs-hub
    ```
 </details>
-<details><summary><b><a href="https://github.com/catwatchdog/mkdocs-cwd">mkdocs-cwd</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>CWD theme for MkDocs.</summary>
+<details><summary><b><a href="https://github.com/catwatchdog/mkdocs-cwd">mkdocs-cwd</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>CWD theme for MkDocs.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/cwd/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/cwd.png" width="400" align="right">
@@ -820,7 +820,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    theme: cwd
    ```
 </details>
-<details><summary><b><a href="https://github.com/ruslanlap/Catppuccin-MkDocs">mkdocs-catppuccin</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Soothing pastel theme for MkDocs based on the Catppuccin color palette.</summary>
+<details><summary><b><a href="https://github.com/ruslanlap/Catppuccin-MkDocs">mkdocs-catppuccin</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/theme.svg" style="display:inline;" width="13" height="13"></code><br>Soothing pastel theme for MkDocs based on the Catppuccin color palette.</summary>
 
 <a href="https://pawamoy.github.io/mkdocs-gallery/themes/catppuccin/">
 <img src="https://pawamoy.github.io/mkdocs-gallery/assets/img/catppuccin.png" width="400" align="right">
@@ -898,7 +898,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/mkdocstrings/python">mkdocstrings-python</a></b>  - 🥇25 ·  ⭐ 280 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code><br>A Python handler for mkdocstrings.</summary>
 
-- [GitHub](https://github.com/mkdocstrings/python) (👨‍💻 32 · 🔀 53 · 📋 220 - 2% open · ⏱️ 23.10.2026)
+- [GitHub](https://github.com/mkdocstrings/python) (👨‍💻 32 · 🔀 53 · 📋 220 - 2% open · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocstrings-python) (📥 5.8M / month):
 	```
 	pip install mkdocstrings-python
@@ -938,7 +938,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/JakubAndrysek/MkDoxy">mkdoxy</a></b>  - 🥇20 ·  ⭐ 130 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Automatically generates API documentation for your project based on Doxygen comments and code snippets in your..</summary>
 
-- [GitHub](https://github.com/JakubAndrysek/MkDoxy) (👨‍💻 18 · 🔀 32 · 📦 84 · 📋 75 - 33% open · ⏱️ 01.11.2026)
+- [GitHub](https://github.com/JakubAndrysek/MkDoxy) (👨‍💻 18 · 🔀 32 · 📦 85 · 📋 75 - 33% open · ⏱️ 01.11.2026)
 - [PyPi](https://pypi.org/project/mkdoxy) (📥 40K / month):
 	```
 	pip install mkdoxy
@@ -964,7 +964,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/tlambert03/mkdocs-api-autonav">mkdocs-api-autonav</a></b>  - 🥈16 ·  ⭐ 42 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for autogenerating API docs with navigation.</summary>
 
-- [GitHub](https://github.com/tlambert03/mkdocs-api-autonav) (👨‍💻 2 · 🔀 2 · 📥 160 · 📦 380 · 📋 17 - 11% open · ⏱️ 28.09.2026)
+- [GitHub](https://github.com/tlambert03/mkdocs-api-autonav) (👨‍💻 2 · 🔀 2 · 📥 180 · 📦 390 · 📋 17 - 11% open · ⏱️ 28.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-api-autonav) (📥 95K / month):
 	```
 	pip install mkdocs-api-autonav
@@ -977,7 +977,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/jcayers20/mkdocs-autoapi">mkdocs-autoapi</a></b>  - 🥈16 ·  ⭐ 22 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin providing automatic API reference generation.</summary>
 
-- [GitHub](https://github.com/jcayers20/mkdocs-autoapi) (👨‍💻 2 · 🔀 1 · 📥 10 · 📦 150 · 📋 37 - 21% open · ⏱️ 29.01.2026)
+- [GitHub](https://github.com/jcayers20/mkdocs-autoapi) (👨‍💻 2 · 🔀 1 · 📥 10 · 📦 170 · 📋 37 - 21% open · ⏱️ 29.01.2026)
 - [PyPi](https://pypi.org/project/mkdocs-autoapi) (📥 23K / month):
 	```
 	pip install mkdocs-autoapi
@@ -1011,7 +1011,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/watermarkhu/mkdocstrings-matlab">mkdocstrings-matlab</a></b>  - 🥈14 ·  ⭐ 18 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code><br>A MATLAB handler for mkdocstrings, automatic documentation from sources.</summary>
 
-- [GitHub](https://github.com/watermarkhu/mkdocstrings-matlab) (👨‍💻 5 · 🔀 4 · 📥 77 · 📦 2 · 📋 17 - 35% open · ⏱️ 04.11.2026)
+- [GitHub](https://github.com/watermarkhu/mkdocstrings-matlab) (👨‍💻 5 · 🔀 4 · 📥 83 · 📦 2 · 📋 17 - 35% open · ⏱️ 06.11.2026)
 - [PyPi](https://pypi.org/project/mkdocstrings-matlab) (📥 540 / month):
 	```
 	pip install mkdocstrings-matlab
@@ -1053,7 +1053,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/jonas-haeusler/mkdocs-asyncapi">mkdocs-asyncapi</a></b>  - 🥉12 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that renders asyncapi specs inside your documentation.</summary>
 
-- [GitHub](https://github.com/jonas-haeusler/mkdocs-asyncapi) (👨‍💻 3 · ⏱️ 05.11.2026)
+- [GitHub](https://github.com/jonas-haeusler/mkdocs-asyncapi) (👨‍💻 3 · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-asyncapi) (📥 860 / month):
 	```
 	pip install mkdocs-asyncapi
@@ -1079,7 +1079,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/mkdocstrings/shell">mkdocstrings-shell</a></b>  - 🥉11 ·  ⭐ 5 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code><br>A shell scripts/libraries handler for mkdocstrings.</summary>
 
-- [GitHub](https://github.com/mkdocstrings/shell) (👨‍💻 2 · 📦 83 · 📋 5 - 20% open · ⏱️ 23.10.2026)
+- [GitHub](https://github.com/mkdocstrings/shell) (👨‍💻 2 · 📦 99 · 📋 5 - 20% open · ⏱️ 23.10.2026)
 </details>
 <details><summary><b><a href="https://github.com/greenape/mktheapidocs">mktheapidocs</a></b>  - 🥉10 ·  ⭐ 12 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Numpydocs - mkdocs friendly markdown.</summary>
 
@@ -1107,7 +1107,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - mkdocs-material-adr/adr
    ```
 </details>
-<details><summary><b><a href="https://github.com/i-VRESSE/mkdocs_rich_argparse">mkdocs-rich-argparse</a></b>  - 🥉9 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin to generate documentation for a rich argparse parser.</summary>
+<details><summary><b><a href="https://github.com/i-VRESSE/mkdocs_rich_argparse">mkdocs-rich-argparse</a></b>  - 🥉9 ·  ⭐ 2 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin to generate documentation for a rich argparse parser.</summary>
 
 - [GitHub](https://github.com/i-VRESSE/mkdocs_rich_argparse) (🔀 1 · 📋 5 - 60% open · ⏱️ 26.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-rich-argparse) (📥 260 / month):
@@ -1120,7 +1120,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - mkdocs-rich-argparse
    ```
 </details>
-<details><summary><b><a href="https://github.com/techdocs-owl/mkdocs-owl-api">mkdocs-owl-api</a></b>  - 🥉9 ·  ⭐ 1 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/techdocs-owl/mkdocs-owl-api">mkdocs-owl-api</a></b>  - 🥉8 ·  ⭐ 1 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/techdocs-owl/mkdocs-owl-api) (⏱️ 15.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-owl-api) (📥 130 / month):
@@ -1180,6 +1180,19 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - pipeline-visualizer
    ```
 </details>
+<details><summary><b><a href="https://github.com/idlesign/mkdocs-apidescribed-plugin">mkdocs-apidescribed-plugin</a></b>  - 🥉7 ·  ⭐ 1 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin to generate API documentation for Python programs.</summary>
+
+- [GitHub](https://github.com/idlesign/mkdocs-apidescribed-plugin) (📦 2 · ⏱️ 10.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-apidescribed-plugin) (📥 160 / month):
+	```
+	pip install mkdocs-apidescribed-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - apidescribed
+   ```
+</details>
 <details><summary><b><a href="https://github.com/JakubAndrysek/mkdocs-typedoc">mkdocs-typedoc</a></b>  - 🥉6 ·  ⭐ 9 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>The MkDocs-Typedoc Plugin is a MkDocs plugin that allows you to include TypeDoc documentation in your MkDocs site.</summary>
 
 - [GitHub](https://github.com/JakubAndrysek/mkdocs-typedoc) (👨‍💻 2 · 🔀 2 · 📋 3 - 33% open · ⏱️ 03.05.2024)
@@ -1204,19 +1217,6 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    ```yaml
    plugins:
      - inari
-   ```
-</details>
-<details><summary><b><a href="https://github.com/idlesign/mkdocs-apidescribed-plugin">mkdocs-apidescribed-plugin</a></b>  - 🥉6 ·  ⭐ 1 · 💤 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin to generate API documentation for Python programs.</summary>
-
-- [GitHub](https://github.com/idlesign/mkdocs-apidescribed-plugin) (📦 2 · ⏱️ 24.05.2025)
-- [PyPi](https://pypi.org/project/mkdocs-apidescribed-plugin) (📥 160 / month):
-	```
-	pip install mkdocs-apidescribed-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - apidescribed
    ```
 </details>
 <details><summary><b><a href="https://github.com/pieterdavid/mkdocs-doxygen-plugin">doxygen</a></b>  - 🥉5 ·  ⭐ 18 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A Doxygen plugin for MkDocs.</summary>
@@ -1267,7 +1267,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/Guts/mkdocs-rss-plugin">rss</a></b>  - 🥇23 ·  ⭐ 140 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate a RSS feeds for created and updated pages, using git log and YAML frontmatter (page.meta).</summary>
+<details><summary><b><a href="https://github.com/Guts/mkdocs-rss-plugin">rss</a></b>  - 🥇23 ·  ⭐ 140 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate a RSS feeds for created and updated pages, using git log and YAML frontmatter (page.meta).</summary>
 
 - [GitHub](https://github.com/Guts/mkdocs-rss-plugin) (👨‍💻 22 · 🔀 33 · 📥 510 · 📋 62 - 22% open · ⏱️ 02.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-rss-plugin) (📥 75K / month):
@@ -1375,7 +1375,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 
 <details><summary><b><a href="https://github.com/mikitex70/plantuml-markdown">plantuml-markdown</a></b>  - 🥇29 ·  ⭐ 230 · <code><a href="http://bit.ly/3rqEWVr">BSD-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/markdown.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>PlantUML plugin for Python-Markdown.</summary>
 
-- [GitHub](https://github.com/mikitex70/plantuml-markdown) (👨‍💻 30 · 🔀 53 · 📦 1.9K · 📋 74 - 1% open · ⏱️ 26.10.2026)
+- [GitHub](https://github.com/mikitex70/plantuml-markdown) (👨‍💻 30 · 🔀 53 · 📦 1.9K · 📋 74 - 1% open · ⏱️ 10.11.2026)
 - [PyPi](https://pypi.org/project/plantuml-markdown) (📥 700K / month):
 	```
 	pip install plantuml-markdown
@@ -1388,7 +1388,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/blueswen/mkdocs-glightbox">MkDocs GLightbox</a></b>  - 🥇27 ·  ⭐ 190 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin supports image lightbox (zoom effect) with GLightbox.</summary>
 
-- [GitHub](https://github.com/blueswen/mkdocs-glightbox) (👨‍💻 10 · 🔀 28 · 📥 50 · 📦 6.7K · 📋 60 - 40% open · ⏱️ 25.10.2026)
+- [GitHub](https://github.com/blueswen/mkdocs-glightbox) (👨‍💻 10 · 🔀 28 · 📥 50 · 📦 6.8K · 📋 60 - 40% open · ⏱️ 25.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-glightbox) (📥 990K / month):
 	```
 	pip install mkdocs-glightbox
@@ -1427,7 +1427,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/PLAYG0N/mkdocs-panzoom">panzoom</a></b>  - 🥇22 ·  ⭐ 71 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin to enable pan & zoom on images and mermaid/d2 diagrams.</summary>
 
-- [GitHub](https://github.com/PLAYG0N/mkdocs-panzoom) (👨‍💻 8 · 🔀 3 · 📥 71 · 📦 86 · 📋 34 - 17% open · ⏱️ 24.10.2026)
+- [GitHub](https://github.com/PLAYG0N/mkdocs-panzoom) (👨‍💻 8 · 🔀 3 · 📥 82 · 📦 87 · 📋 34 - 17% open · ⏱️ 24.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-panzoom-plugin) (📥 480K / month):
 	```
 	pip install mkdocs-panzoom-plugin
@@ -1464,9 +1464,9 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - plantuml
    ```
 </details>
-<details><summary><b><a href="https://github.com/tuunit/mkdocs-drawio">mkdocs-drawio</a></b>  - 🥈19 ·  ⭐ 46 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin for embedding Drawio files.</summary>
+<details><summary><b><a href="https://github.com/tuunit/mkdocs-drawio">mkdocs-drawio</a></b>  - 🥈19 ·  ⭐ 46 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin for embedding Drawio files.</summary>
 
-- [GitHub](https://github.com/tuunit/mkdocs-drawio) (👨‍💻 15 · 🔀 14 · 📦 73 · 📋 23 - 17% open · ⏱️ 25.07.2026)
+- [GitHub](https://github.com/tuunit/mkdocs-drawio) (👨‍💻 15 · 🔀 14 · 📦 74 · 📋 23 - 17% open · ⏱️ 25.07.2026)
 - [PyPi](https://pypi.org/project/mkdocs-drawio) (📥 98K / month):
 	```
 	pip install mkdocs-drawio
@@ -1479,7 +1479,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/soulless-viewer/mkdocs-video">MkDocs Video</a></b>  - 🥈18 ·  ⭐ 83 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Video plugin.</summary>
 
-- [GitHub](https://github.com/soulless-viewer/mkdocs-video) (👨‍💻 5 · 🔀 15 · 📥 84 · 📦 1.2K · ⏱️ 04.01.2024)
+- [GitHub](https://github.com/soulless-viewer/mkdocs-video) (👨‍💻 5 · 🔀 15 · 📥 90 · 📦 1.2K · ⏱️ 04.01.2024)
 - [PyPi](https://pypi.org/project/mkdocs-video) (📥 100K / month):
 	```
 	pip install mkdocs-video
@@ -1503,7 +1503,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - build_plantuml
    ```
 </details>
-<details><summary><b><a href="https://github.com/ZhuchkaTriplesix/mkdocs-dbml">mkdocs-dbml-plugin</a></b>  - 🥈17 ·  ⭐ 11 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin render DBML as interactive ERD diagrams with drag, zoom, and export.</summary>
+<details><summary><b><a href="https://github.com/ZhuchkaTriplesix/mkdocs-dbml">mkdocs-dbml-plugin</a></b>  - 🥈17 ·  ⭐ 12 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin render DBML as interactive ERD diagrams with drag, zoom, and export.</summary>
 
 - [GitHub](https://github.com/ZhuchkaTriplesix/mkdocs-dbml) (👨‍💻 4 · 🔀 2 · 📋 61 - 6% open · ⏱️ 23.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-dbml-plugin) (📥 2.5K / month):
@@ -1581,7 +1581,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - lightgallery
    ```
 </details>
-<details><summary><b><a href="https://github.com/timvink/mkdocs-charts-plugin">charts</a></b>  - 🥈13 ·  ⭐ 90 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs plugin to add plots from data using vegalite.</summary>
+<details><summary><b><a href="https://github.com/timvink/mkdocs-charts-plugin">charts</a></b>  - 🥈13 ·  ⭐ 91 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs plugin to add plots from data using vegalite.</summary>
 
 - [GitHub](https://github.com/timvink/mkdocs-charts-plugin) (👨‍💻 5 · 🔀 7 · 📋 20 - 15% open · ⏱️ 02.09.2025)
 - [PyPi](https://pypi.org/project/mkdocs-charts-plugin) (📥 15K / month):
@@ -1594,7 +1594,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - charts
    ```
 </details>
-<details><summary><b><a href="https://github.com/asadarafat/topoviewer">mkdocs-topoviewer</a></b>  - 🥈13 ·  ⭐ 25 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/asadarafat/topoviewer">mkdocs-topoviewer</a></b>  - 🥈13 ·  ⭐ 25 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/asadarafat/topoviewer) (👨‍💻 2 · 🔀 6 · 📥 5 · 📦 1 · 📋 31 - 6% open · ⏱️ 11.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-topoviewer) (📥 84 / month):
@@ -1609,7 +1609,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://oembedpy.readthedocs.io/en/stable/integrations/mkdocs/">oEmbedPy</a></b>  - 🥈13 ·  ⭐ 8 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to render rich contents from URL by oEmbed API.</summary>
 
-- [GitHub](https://github.com/attakei/oEmbedPy) (👨‍💻 2 · 🔀 1 · 📥 46 · 📦 17 · 📋 9 - 66% open · ⏱️ 27.12.2025)
+- [GitHub](https://github.com/attakei/oEmbedPy) (👨‍💻 2 · 🔀 1 · 📥 46 · 📦 18 · 📋 9 - 66% open · ⏱️ 27.12.2025)
 - [PyPi](https://pypi.org/project/oEmbedPy) (📥 1.2K / month):
 	```
 	pip install oEmbedPy
@@ -1633,9 +1633,9 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - diagrams
    ```
 </details>
-<details><summary><b><a href="https://github.com/qdeli187/mkdocs-excalidraw">mkdocs-excalidraw</a></b>  - 🥈12 ·  ⭐ 8 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A simple mkdocs plugin to easily embed your excalidraw drawings into your docs.</summary>
+<details><summary><b><a href="https://github.com/qdeli187/mkdocs-excalidraw">mkdocs-excalidraw</a></b>  - 🥈12 ·  ⭐ 8 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A simple mkdocs plugin to easily embed your excalidraw drawings into your docs.</summary>
 
-- [GitHub](https://github.com/qdeli187/mkdocs-excalidraw) (👨‍💻 2 · 📋 13 - 15% open · ⏱️ 11.10.2026)
+- [GitHub](https://github.com/qdeli187/mkdocs-excalidraw) (👨‍💻 2 · 📦 2 · 📋 13 - 15% open · ⏱️ 10.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-excalidraw) (📥 2.3K / month):
 	```
 	pip install mkdocs-excalidraw
@@ -1700,7 +1700,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/AnH0ang/mkdocs-matplotlib">mkdocs-matplotlib</a></b>  - 🥉10 ·  ⭐ 4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A mkdocs plugin to automatically render matplotlib figure in your documenation.</summary>
 
-- [GitHub](https://github.com/AnH0ang/mkdocs-matplotlib) (👨‍💻 2 · 🔀 3 · 📥 180 · ⏱️ 20.06.2022)
+- [GitHub](https://github.com/AnH0ang/mkdocs-matplotlib) (👨‍💻 2 · 🔀 3 · 📥 190 · ⏱️ 20.06.2022)
 - [PyPi](https://pypi.org/project/mkdocs-matplotlib) (📥 1.3K / month):
 	```
 	pip install mkdocs-matplotlib
@@ -1711,7 +1711,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - mkdocs_matplotlib
    ```
 </details>
-<details><summary><b><a href="https://github.com/nuitsjp/mkdocs-mermaid-to-svg">mkdocs-mermaid-to-svg</a></b>  - 🥉10 ·  ⭐ 3 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/nuitsjp/mkdocs-mermaid-to-svg">mkdocs-mermaid-to-svg</a></b>  - 🥉10 ·  ⭐ 3 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/nuitsjp/mkdocs-mermaid-to-svg) (👨‍💻 2 · 🔀 1 · 📥 42 · ⏱️ 10.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-mermaid-to-svg) (📥 2.2K / month):
@@ -1726,7 +1726,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/markgrafhq/mkdocs-markgraf">mkdocs-markgraf</a></b>  - 🥉10 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that renders markgraf animations as Canvas2D players.</summary>
 
-- [GitHub](https://github.com/markgrafhq/mkdocs-markgraf) (👨‍💻 3 · ⏱️ 01.11.2026)
+- [GitHub](https://github.com/markgrafhq/mkdocs-markgraf) (👨‍💻 3 · ⏱️ 10.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-markgraf) (📥 560 / month):
 	```
 	pip install mkdocs-markgraf
@@ -1886,7 +1886,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - image-gallery
    ```
 </details>
-<details><summary><b><a href="https://github.com/nuitsjp/mkdocs-svg-to-png">mkdocs-svg-to-png</a></b>  - 🥉6 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/nuitsjp/mkdocs-svg-to-png">mkdocs-svg-to-png</a></b>  - 🥉6 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/nuitsjp/mkdocs-svg-to-png) (👨‍💻 2 · 🔀 1 · 📥 19 · ⏱️ 23.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-svg-to-png) (📥 350 / month):
@@ -1964,7 +1964,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - pico-8
    ```
 </details>
-<details><summary><b><a href="https://github.com/yonge123/mkdocs-nodegraph">mkdocs-nodegraph</a></b>  - 🥉5 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/yonge123/mkdocs-nodegraph">mkdocs-nodegraph</a></b>  - 🥉5 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/yonge123/mkdocs-nodegraph) (🔀 1 · 📦 3 · ⏱️ 08.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-nodegraph) (📥 21 / month):
@@ -1990,7 +1990,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - markdown_figcap
    ```
 </details>
-<details><summary><b><a href="https://github.com/peter-daly/mkdocs-mermaid-images">mkdocs-mermaid-images</a></b>  - 🥉5 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Creates png images from mermaidjs markdown and embeds in the page.</summary>
+<details><summary><b><a href="https://github.com/peter-daly/mkdocs-mermaid-images">mkdocs-mermaid-images</a></b>  - 🥉5 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Creates png images from mermaidjs markdown and embeds in the page.</summary>
 
 - [GitHub](https://github.com/peter-daly/mkdocs-mermaid-images) (⏱️ 24.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-mermaid-images) (📥 690 / month):
@@ -2035,7 +2035,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/kisspread/uebp">mkdocs-blueprintue</a></b>  - 🥉4 ·  ⭐ 1 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for rendering Unreal Engine Blueprint nodes.</summary>
 
-- [GitHub](https://github.com/kisspread/uebp) (📥 4 · ⏱️ 25.12.2024)
+- [GitHub](https://github.com/kisspread/uebp) (📥 5 · ⏱️ 25.12.2024)
 - [PyPi](https://pypi.org/project/mkdocs-blueprintue) (📥 15 / month):
 	```
 	pip install mkdocs-blueprintue
@@ -2132,7 +2132,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/danielfrg/mkdocs-jupyter">mkdocs-jupyter</a></b>  - 🥇27 ·  ⭐ 510 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Use Jupyter Notebook in mkdocs.</summary>
 
-- [GitHub](https://github.com/danielfrg/mkdocs-jupyter) (👨‍💻 41 · 🔀 65 · 📦 5.6K · 📋 160 - 0% open · ⏱️ 05.11.2026)
+- [GitHub](https://github.com/danielfrg/mkdocs-jupyter) (👨‍💻 41 · 🔀 65 · 📦 5.6K · 📋 160 - 0% open · ⏱️ 07.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-jupyter) (📥 280K / month):
 	```
 	pip install mkdocs-jupyter
@@ -2145,7 +2145,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/pawamoy/markdown-exec">markdown-exec</a></b>  - 🥇26 ·  ⭐ 180 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Utilities to execute code blocks in Markdown files.</summary>
 
-- [GitHub](https://github.com/pawamoy/markdown-exec) (👨‍💻 9 · 🔀 19 · 📦 980 · 📋 70 - 18% open · ⏱️ 31.10.2026)
+- [GitHub](https://github.com/pawamoy/markdown-exec) (👨‍💻 9 · 🔀 19 · 📦 980 · 📋 70 - 17% open · ⏱️ 10.11.2026)
 - [PyPi](https://pypi.org/project/markdown-exec) (📥 980K / month):
 	```
 	pip install markdown-exec
@@ -2171,7 +2171,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/greenape/mknotebooks">mknotebooks</a></b>  - 🥈20 ·  ⭐ 140 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A plugin for mkdocs to help you include Jupyter notebooks in your projects.</summary>
 
-- [GitHub](https://github.com/greenape/mknotebooks) (👨‍💻 14 · 🔀 17 · 📦 810 · 📋 41 - 36% open · ⏱️ 11.08.2023)
+- [GitHub](https://github.com/greenape/mknotebooks) (👨‍💻 14 · 🔀 17 · 📦 820 · 📋 41 - 36% open · ⏱️ 11.08.2023)
 - [PyPi](https://pypi.org/project/mknotebooks) (📥 56K / month):
 	```
 	pip install mknotebooks
@@ -2195,20 +2195,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - markdownextradata
    ```
 </details>
-<details><summary><b><a href="https://github.com/marimo-team/mkdocs-marimo">mkdocs-marimo</a></b>  - 🥈15 ·  ⭐ 120 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin for reactive and interactive docs with marimo.</summary>
-
-- [GitHub](https://github.com/marimo-team/mkdocs-marimo) (👨‍💻 8 · 🔀 6 · 📦 21 · 📋 28 - 57% open · ⏱️ 28.07.2026)
-- [PyPi](https://pypi.org/project/mkdocs-marimo) (📥 3.9K / month):
-	```
-	pip install mkdocs-marimo
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - marimo
-   ```
-</details>
-<details><summary><b><a href="https://github.com/markmap/mkdocs_markmap">mkdocs-markmap</a></b>  - 🥈15 ·  ⭐ 74 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin and extension to create mindmaps from markdown using markmap.</summary>
+<details><summary><b><a href="https://github.com/markmap/mkdocs_markmap">mkdocs-markmap</a></b>  - 🥈15 ·  ⭐ 73 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin and extension to create mindmaps from markdown using markmap.</summary>
 
 - [GitHub](https://github.com/markmap/mkdocs_markmap) (👨‍💻 3 · 🔀 7 · 📥 510 · 📋 35 - 14% open · ⏱️ 11.02.2025)
 - [PyPi](https://pypi.org/project/mkdocs-markmap) (📥 1.4K / month):
@@ -2232,6 +2219,19 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    ```yaml
    plugins:
      - placeholder
+   ```
+</details>
+<details><summary><b><a href="https://github.com/marimo-team/mkdocs-marimo">mkdocs-marimo</a></b>  - 🥈13 ·  ⭐ 120 · 📉 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin for reactive and interactive docs with marimo.</summary>
+
+- [GitHub](https://github.com/marimo-team/mkdocs-marimo) (🔀 6 · 📦 21)
+- [PyPi](https://pypi.org/project/mkdocs-marimo) (📥 3.9K / month):
+	```
+	pip install mkdocs-marimo
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - marimo
    ```
 </details>
 <details><summary><b><a href="https://github.com/timmeinerzhagen/mkdocs-meta-manager">meta-manager</a></b>  - 🥈13 ·  ⭐ 6 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for managing meta tags across folders and files.</summary>
@@ -2260,6 +2260,19 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - termynal
    ```
 </details>
+<details><summary><b><a href="https://github.com/entangled/mkdocs-plugin">Entangled</a></b>  - 🥈12 ·  ⭐ 3 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin that lets you do Literate Programming through Entangled.</summary>
+
+- [GitHub](https://github.com/entangled/mkdocs-plugin) (👨‍💻 2 · 🔀 2 · 📦 14 · ⏱️ 09.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-entangled-plugin) (📥 6.4K / month):
+	```
+	pip install mkdocs-entangled-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - entangled
+   ```
+</details>
 <details><summary><b><a href="https://github.com/rahult/mkdocs-user-defined-values">user-defined-values</a></b>  - 🥈11 ·  ⭐ 4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs User Defined Values.</summary>
 
 - [GitHub](https://github.com/rahult/mkdocs-user-defined-values) (👨‍💻 3 · 🔀 3 · 📥 19 · 📦 15 · 📋 2 - 50% open · ⏱️ 10.07.2022)
@@ -2271,19 +2284,6 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    ```yaml
    plugins:
      - user-defined-values
-   ```
-</details>
-<details><summary><b><a href="https://github.com/entangled/mkdocs-plugin">Entangled</a></b>  - 🥈11 ·  ⭐ 3 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin that lets you do Literate Programming through Entangled.</summary>
-
-- [GitHub](https://github.com/entangled/mkdocs-plugin) (🔀 1 · 📦 14 · ⏱️ 20.11.2025)
-- [PyPi](https://pypi.org/project/mkdocs-entangled-plugin) (📥 6.4K / month):
-	```
-	pip install mkdocs-entangled-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - entangled
    ```
 </details>
 <details><summary><b><a href="https://github.com/NickCrews/mkdocs-jupyterlite">mkdocs-jupyterlite</a></b>  - 🥈10 ·  ⭐ 25 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for embedding interactive jupyter notebooks in your docs via jupyterlite.</summary>
@@ -2338,7 +2338,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - data
    ```
 </details>
-<details><summary><b><a href="https://github.com/Epithumia/mkdocs-sqlite-console">mkdocs-sqlite-console</a></b>  - 🥉9 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that adds a sqlite IDE.</summary>
+<details><summary><b><a href="https://github.com/Epithumia/mkdocs-sqlite-console">mkdocs-sqlite-console</a></b>  - 🥉9 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that adds a sqlite IDE.</summary>
 
 - [GitHub](https://github.com/Epithumia/mkdocs-sqlite-console) (👨‍💻 3 · 🔀 1 · 📦 6 · 📋 12 - 16% open · ⏱️ 04.01.2026)
 - [PyPi](https://pypi.org/project/mkdocs-sqlite-console) (📥 560 / month):
@@ -2377,9 +2377,9 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - jsfiddle
    ```
 </details>
-<details><summary><b><a href="https://github.com/gbbirkisson/mkdocs-fun-plugin">mkdocs-fun-plugin</a></b>  - 🥉8 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Dead simple custom python functions with mkdocs.</summary>
+<details><summary><b><a href="https://github.com/gbbirkisson/mkdocs-fun-plugin">mkdocs-fun-plugin</a></b>  - 🥉8 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Dead simple custom python functions with mkdocs.</summary>
 
-- [GitHub](https://github.com/gbbirkisson/mkdocs-fun-plugin) (👨‍💻 3 · 🔀 1 · 📥 4 · 📋 4 - 25% open · ⏱️ 28.10.2026)
+- [GitHub](https://github.com/gbbirkisson/mkdocs-fun-plugin) (👨‍💻 3 · 🔀 1 · 📥 4 · 📋 4 - 25% open · ⏱️ 06.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-fun-plugin) (📥 31 / month):
 	```
 	pip install mkdocs-fun-plugin
@@ -2403,7 +2403,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - ipynb
    ```
 </details>
-<details><summary><b><a href="https://github.com/phil65/mkdocs-mknodes">mkdocs-mknodes</a></b>  - 🥉7 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for MkNodes.</summary>
+<details><summary><b><a href="https://github.com/phil65/mkdocs-mknodes">mkdocs-mknodes</a></b>  - 🥉7 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for MkNodes.</summary>
 
 - [GitHub](https://github.com/phil65/mkdocs-mknodes) (👨‍💻 2 · 📥 20 · ⏱️ 06.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-mknodes) (📥 54 / month):
@@ -2429,7 +2429,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - markupsafe-markdown-filter
    ```
 </details>
-<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-markdown-in-template">vexy-mkdocs-markdown-in-template</a></b>  - 🥉7 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that allows to use Markdown in your themes Jinja2 templates.</summary>
+<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-markdown-in-template">vexy-mkdocs-markdown-in-template</a></b>  - 🥉7 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that allows to use Markdown in your themes Jinja2 templates.</summary>
 
 - [GitHub](https://github.com/vexyart/vexy-mkdocs-markdown-in-template) (⏱️ 13.10.2026)
 - [PyPi](https://pypi.org/project/vexy-mkdocs-markdown-in-template):
@@ -2442,7 +2442,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - markdown-in-template
    ```
 </details>
-<details><summary><b><a href="https://github.com/daizutabi/mkdocs-nbsync">mkdocs-nbsync</a></b>  - 🥉6 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Seamlessly sync Jupyter notebook visualizations with MkDocs docs - no more broken screenshots!.</summary>
+<details><summary><b><a href="https://github.com/daizutabi/mkdocs-nbsync">mkdocs-nbsync</a></b>  - 🥉6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Seamlessly sync Jupyter notebook visualizations with MkDocs docs - no more broken screenshots!.</summary>
 
 - [GitHub](https://github.com/daizutabi/mkdocs-nbsync) (👨‍💻 2 · ⏱️ 30.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-nbsync) (📥 29 / month):
@@ -2453,6 +2453,19 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
    ```yaml
    plugins:
      - mkdocs-nbsync
+   ```
+</details>
+<details><summary><b><a href="https://github.com/UniRate-API/mkdocs-unirate">mkdocs-unirate</a></b>  - 🥉5 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that injects live UniRate exchange rates into your docs at build time (Markdown placeholders + Jinja..</summary>
+
+- [GitHub](https://github.com/UniRate-API/mkdocs-unirate) (⏱️ 11.08.2026)
+- [PyPi](https://pypi.org/project/mkdocs-unirate) (📥 20 / month):
+	```
+	pip install mkdocs-unirate
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - unirate
    ```
 </details>
 <details><summary><b><a href="https://github.com/rkoe/mkdocs-jinja2sandbox">jinja2sandbox</a></b>  - 🥉4 ·  ⭐ 5 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that enables the Jinja2-sandbox.</summary>
@@ -2503,19 +2516,6 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - codeyaml
    ```
 </details>
-<details><summary><b><a href="https://github.com/UniRate-API/mkdocs-unirate">mkdocs-unirate</a></b>  - 🥉4 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that injects live UniRate exchange rates into your docs at build time (Markdown placeholders + Jinja..</summary>
-
-- [GitHub](https://github.com/UniRate-API/mkdocs-unirate) (⏱️ 11.08.2026)
-- [PyPi](https://pypi.org/project/mkdocs-unirate) (📥 20 / month):
-	```
-	pip install mkdocs-unirate
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - unirate
-   ```
-</details>
 <details><summary><b><a href="https://github.com/six-two/mkdocs-variable-randomizer-plugin">mkdocs-variable-randomizer-plugin</a></b>  - 🥉4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Randomize specific variable names in code snippets each time you load the page.</summary>
 
 - [GitHub](https://github.com/six-two/mkdocs-variable-randomizer-plugin) (⏱️ 02.04.2025)
@@ -2555,7 +2555,20 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - mkdocs-pre-build-script
    ```
 </details>
-<details><summary><b><a href="https://github.com/mtsokol/mkdocs-command-generator">mkdocs-command-generator</a></b>  -  ⭐ 1 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/onlinecompiler-io/mkdocs-onlinecompiler">mkdocs-onlinecompiler</a></b>  - 🥉3 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs and Material for MkDocs plugin for runnable, interactive code examples: write ```python runnable and readers..</summary>
+
+- [GitHub](https://github.com/onlinecompiler-io/mkdocs-onlinecompiler) (⏱️ 09.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-onlinecompiler):
+	```
+	pip install mkdocs-onlinecompiler
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - onlinecompiler
+   ```
+</details>
+<details><summary><b><a href="https://github.com/mtsokol/mkdocs-command-generator">mkdocs-command-generator</a></b>  -  ⭐ 1 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/mtsokol/mkdocs-command-generator) (⏱️ 15.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-command-generator) (📥 10 / month):
@@ -2574,9 +2587,9 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/timvink/mkdocs-git-revision-date-localized-plugin">git-revision-date-localized</a></b>  - 🥇30 ·  ⭐ 280 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to add a last updated date to your site pages.</summary>
+<details><summary><b><a href="https://github.com/timvink/mkdocs-git-revision-date-localized-plugin">git-revision-date-localized</a></b>  - 🥇31 ·  ⭐ 280 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to add a last updated date to your site pages.</summary>
 
-- [GitHub](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin) (👨‍💻 44 · 🔀 54 · 📦 14K · ⏱️ 02.11.2026)
+- [GitHub](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin) (👨‍💻 44 · 🔀 55 · 📦 14K · 📋 120 - 0% open · ⏱️ 09.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-git-revision-date-localized-plugin) (📥 1.2M / month):
 	```
 	pip install mkdocs-git-revision-date-localized-plugin
@@ -2628,7 +2641,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/jaywhj/mkdocs-document-dates">document-dates</a></b>  - 🥈20 ·  ⭐ 36 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A new generation MkDocs plugin for displaying exact creation date, last update date, authors, email of documents.</summary>
 
-- [GitHub](https://github.com/jaywhj/mkdocs-document-dates) (👨‍💻 5 · 🔀 8 · 📦 93 · ⏱️ 22.10.2026)
+- [GitHub](https://github.com/jaywhj/mkdocs-document-dates) (👨‍💻 5 · 🔀 8 · 📦 93 · 📋 31 - 3% open · ⏱️ 22.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-document-dates) (📥 21K / month):
 	```
 	pip install mkdocs-document-dates
@@ -2652,7 +2665,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - git-committers
    ```
 </details>
-<details><summary><b><a href="https://github.com/davfsa/mkdocs-towncrier">mkdocs-towncrier</a></b>  - 🥈13 ·  ⭐ 3 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An insanely small plugin to add towncrier changelog draft into mkdocs.</summary>
+<details><summary><b><a href="https://github.com/davfsa/mkdocs-towncrier">mkdocs-towncrier</a></b>  - 🥈13 ·  ⭐ 3 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An insanely small plugin to add towncrier changelog draft into mkdocs.</summary>
 
 - [GitHub](https://github.com/davfsa/mkdocs-towncrier) (👨‍💻 3 · 🔀 2 · 📦 15 · ⏱️ 12.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-towncrier) (📥 710 / month):
@@ -2704,7 +2717,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - recently-updated
    ```
 </details>
-<details><summary><b><a href="https://github.com/djpugh/mkdocs_github_changelog">Github Releaase Changelog</a></b>  - 🥉8 ·  ⭐ 9 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs extension to autogenerate changelog from github releases.</summary>
+<details><summary><b><a href="https://github.com/djpugh/mkdocs_github_changelog">Github Releaase Changelog</a></b>  - 🥉8 ·  ⭐ 9 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs extension to autogenerate changelog from github releases.</summary>
 
 - [GitHub](https://github.com/djpugh/mkdocs_github_changelog) (👨‍💻 2 · ⏱️ 05.08.2026)
 - [PyPi](https://pypi.org/project/mkdocs-github-changelog) (📥 910 / month):
@@ -2730,7 +2743,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - branchcustomization
    ```
 </details>
-<details><summary><b><a href="https://github.com/cms-cat/mkdocs-metadata-enricher-plugin">mkdocs-metadata-enricher-plugin</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Enhance MkDocs metadata.</summary>
+<details><summary><b><a href="https://github.com/cms-cat/mkdocs-metadata-enricher-plugin">mkdocs-metadata-enricher-plugin</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Enhance MkDocs metadata.</summary>
 
 - [GitHub](https://github.com/cms-cat/mkdocs-metadata-enricher-plugin) (👨‍💻 2 · ⏱️ 16.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-metadata-enricher-plugin) (📥 19 / month):
@@ -2743,7 +2756,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - metadata-enricher
    ```
 </details>
-<details><summary><b><a href="https://github.com/kkAyataka/mkdocs-decodiff-plugin">mkdocs-decodiff-plugin</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Decorate Markdown diff lines for better readability. CLI and MkDocs plugin.</summary>
+<details><summary><b><a href="https://github.com/kkAyataka/mkdocs-decodiff-plugin">mkdocs-decodiff-plugin</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Decorate Markdown diff lines for better readability. CLI and MkDocs plugin.</summary>
 
 - [GitHub](https://github.com/kkAyataka/mkdocs-decodiff-plugin) (⏱️ 27.01.2026)
 - [PyPi](https://pypi.org/project/mkdocs-decodiff-plugin) (📥 17 / month):
@@ -2816,7 +2829,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
 </details>
 <details><summary><b><a href="https://github.com/monosans/mkdocs-minify-html-plugin">minify-html</a></b>  - 🥇21 ·  ⭐ 13 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for minification using minify-html, an extremely fast and smart HTML + JS + CSS minifier.</summary>
 
-- [GitHub](https://github.com/monosans/mkdocs-minify-html-plugin) (👨‍💻 4 · 🔀 2 · 📦 110 · ⏱️ 05.11.2026)
+- [GitHub](https://github.com/monosans/mkdocs-minify-html-plugin) (👨‍💻 4 · 🔀 2 · 📦 110 · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-minify-html-plugin) (📥 35K / month):
 	```
 	pip install mkdocs-minify-html-plugin
@@ -2905,7 +2918,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - link-embeds
    ```
 </details>
-<details><summary><b><a href="https://github.com/six-two/mkdocs-toggle-sidebar-plugin">toggle-sidebar</a></b>  - 🥈10 ·  ⭐ 12 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Toggle the navigation and/or TOC sidebars on your MkDocs site.</summary>
+<details><summary><b><a href="https://github.com/six-two/mkdocs-toggle-sidebar-plugin">toggle-sidebar</a></b>  - 🥈10 ·  ⭐ 13 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Toggle the navigation and/or TOC sidebars on your MkDocs site.</summary>
 
 - [GitHub](https://github.com/six-two/mkdocs-toggle-sidebar-plugin) (👨‍💻 3 · 🔀 4 · ⏱️ 18.08.2026)
 - [PyPi](https://pypi.org/project/mkdocs-toggle-sidebar-plugin) (📥 9.8K / month):
@@ -2957,7 +2970,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - mkdocs-add-teaser
    ```
 </details>
-<details><summary><b><a href="https://github.com/raineblog/mkdocs-advanced-seo">mkdocs-advanced-seo</a></b>  - 🥉9 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A comprehensive SEO plugin for MkDocs with Advanced Meta tags, Open Graph, Twitter Cards, JSON-LD, and more.</summary>
+<details><summary><b><a href="https://github.com/raineblog/mkdocs-advanced-seo">mkdocs-advanced-seo</a></b>  - 🥉9 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A comprehensive SEO plugin for MkDocs with Advanced Meta tags, Open Graph, Twitter Cards, JSON-LD, and more.</summary>
 
 - [GitHub](https://github.com/raineblog/mkdocs-advanced-seo) (👨‍💻 2 · 📦 4 · ⏱️ 01.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-advanced-seo) (📥 440 / month):
@@ -2992,7 +3005,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - pygments
    ```
 </details>
-<details><summary><b><a href="https://github.com/allscreenshots/mkdocs-og-image-plugin">mkdocs-allscreenshots-og-screenshot</a></b>  - 🥉7 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that adds a live-screenshot og:image (OpenGraph) tag to every page via Allscreenshots.</summary>
+<details><summary><b><a href="https://github.com/allscreenshots/mkdocs-og-image-plugin">mkdocs-allscreenshots-og-screenshot</a></b>  - 🥉7 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that adds a live-screenshot og:image (OpenGraph) tag to every page via Allscreenshots.</summary>
 
 - [GitHub](https://github.com/allscreenshots/mkdocs-og-image-plugin) (⏱️ 23.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-allscreenshots-og-screenshot) (📥 64 / month):
@@ -3018,7 +3031,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - light_dark_toggle
    ```
 </details>
-<details><summary><b><a href="https://github.com/julie-dujardin/mkdocs-external-custom-emojis">mkdocs-external-custom-emojis</a></b>  - 🥉6 ·  ⭐ 1 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Sync custom emojis from multiple Slack & Discord servers into MkDocs Material.</summary>
+<details><summary><b><a href="https://github.com/julie-dujardin/mkdocs-external-custom-emojis">mkdocs-external-custom-emojis</a></b>  - 🥉6 ·  ⭐ 1 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Sync custom emojis from multiple Slack & Discord servers into MkDocs Material.</summary>
 
 - [GitHub](https://github.com/julie-dujardin/mkdocs-external-custom-emojis) (📥 2 · ⏱️ 08.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-external-custom-emojis) (📥 13 / month):
@@ -3070,7 +3083,7 @@ Both are also listed, and ranked like any other project, under [Theming](#-themi
      - extra-sass
    ```
 </details>
-<details><summary><b><a href="https://github.com/nitaibezerra/mkdocs-zen-mode">mkdocs-zen-mode</a></b>  - 🥉4 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Zen Mode toggle for MkDocs Material distraction-free reading.</summary>
+<details><summary><b><a href="https://github.com/nitaibezerra/mkdocs-zen-mode">mkdocs-zen-mode</a></b>  - 🥉4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Zen Mode toggle for MkDocs Material distraction-free reading.</summary>
 
 - [GitHub](https://github.com/nitaibezerra/mkdocs-zen-mode) (📋 6 - 83% open · ⏱️ 06.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-zen-mode) (📥 29 / month):
@@ -3115,7 +3128,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <details><summary><b><a href="https://github.com/pawamoy/mkdocs-llmstxt">mkdocs-llmstxt</a></b>  - 🥇22 ·  ⭐ 130 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate an /llms.txt file (https://llmstxt.org/).</summary>
 
-- [GitHub](https://github.com/pawamoy/mkdocs-llmstxt) (👨‍💻 6 · 🔀 14 · 📦 810 · ⏱️ 23.10.2026)
+- [GitHub](https://github.com/pawamoy/mkdocs-llmstxt) (👨‍💻 6 · 🔀 14 · 📦 830 · ⏱️ 23.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-llmstxt) (📥 270K / month):
 	```
 	pip install mkdocs-llmstxt
@@ -3139,9 +3152,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - copy-to-llm
    ```
 </details>
-<details><summary><b><a href="https://github.com/TimChild/mkdocs-llms-source">mkdocs-llms-source</a></b>  - 🥇11 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate /llms.txt files for LLM-friendly documentation.</summary>
+<details><summary><b><a href="https://github.com/exowatt-oss/mkdocs-llms-source">mkdocs-llms-source</a></b>  - 🥇11 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate /llms.txt files for LLM-friendly documentation.</summary>
 
-- [GitHub](https://github.com/TimChild/mkdocs-llms-source) (📦 5 · ⏱️ 18.07.2026)
+- [GitHub](https://github.com/exowatt-oss/mkdocs-llms-source) (📦 5 · ⏱️ 08.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-llms-source) (📥 2.6K / month):
 	```
 	pip install mkdocs-llms-source
@@ -3152,7 +3165,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - llms-source
    ```
 </details>
-<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-output-as-input">vexy-mkdocs-output-as-input</a></b>  - 🥈10 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that captures HTML output and creates cousin Markdown files with original frontmatter and extracted HTML..</summary>
+<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-output-as-input">vexy-mkdocs-output-as-input</a></b>  - 🥈10 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that captures HTML output and creates cousin Markdown files with original frontmatter and extracted HTML..</summary>
 
 - [GitHub](https://github.com/vexyart/vexy-mkdocs-output-as-input) (📥 14 · ⏱️ 13.10.2026)
 - [PyPi](https://pypi.org/project/vexy-mkdocs-output-as-input) (📥 27 / month):
@@ -3165,7 +3178,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - output-as-input
    ```
 </details>
-<details><summary><b><a href="https://github.com/mrkhachaturov/mkdocs-ask-ai">mkdocs-ask-ai</a></b>  - 🥈9 ·  ⭐ 4 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for AI-ready documentation Use with AI dropdown, llms.txt, MCP server, i18n support.</summary>
+<details><summary><b><a href="https://github.com/mrkhachaturov/mkdocs-ask-ai">mkdocs-ask-ai</a></b>  - 🥈9 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for AI-ready documentation Use with AI dropdown, llms.txt, MCP server, i18n support.</summary>
 
 - [GitHub](https://github.com/mrkhachaturov/mkdocs-ask-ai) (⏱️ 15.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-ask-ai) (📥 1.2K / month):
@@ -3178,7 +3191,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - ask-ai
    ```
 </details>
-<details><summary><b><a href="https://github.com/noklam/mkdocs-llmstxt-md">mkdocs-llmstxt-md</a></b>  - 🥈8 ·  ⭐ 18 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugins for creating LLMs friendly llms.txt and llms-full.txt.</summary>
+<details><summary><b><a href="https://github.com/noklam/mkdocs-llmstxt-md">mkdocs-llmstxt-md</a></b>  - 🥈8 ·  ⭐ 18 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugins for creating LLMs friendly llms.txt and llms-full.txt.</summary>
 
 - [GitHub](https://github.com/noklam/mkdocs-llmstxt-md) (👨‍💻 4 · 🔀 4 · ⏱️ 21.07.2026)
 - [PyPi](https://pypi.org/project/mkdocs-llmstxt-md) (📥 12K / month):
@@ -3191,7 +3204,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - llmstxt-md
    ```
 </details>
-<details><summary><b><a href="https://github.com/jonco5555/mkdocs-chatbot">mkdocs-chatbot</a></b>  - 🥈8 ·  ⭐ 4 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>AI-powered chatbot for MkDocs chat with your docs and get instant answers.</summary>
+<details><summary><b><a href="https://github.com/jonco5555/mkdocs-chatbot">mkdocs-chatbot</a></b>  - 🥈8 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>AI-powered chatbot for MkDocs chat with your docs and get instant answers.</summary>
 
 - [GitHub](https://github.com/jonco5555/mkdocs-chatbot) (⏱️ 11.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-chatbot) (📥 21 / month):
@@ -3230,7 +3243,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mcp
    ```
 </details>
-<details><summary><b><a href="https://github.com/Wcowin/Mkdocs-AI-Summary-Plus">mkdocs-ai-summary-wcowin</a></b>  - 🥉7 ·  ⭐ 5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MKdocs AIIntelligent hooks for MkDocs that enhance your documentation with AI-powered summaries.</summary>
+<details><summary><b><a href="https://github.com/Wcowin/Mkdocs-AI-Summary-Plus">mkdocs-ai-summary-wcowin</a></b>  - 🥉7 ·  ⭐ 5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MKdocs AIIntelligent hooks for MkDocs that enhance your documentation with AI-powered summaries.</summary>
 
 - [GitHub](https://github.com/Wcowin/Mkdocs-AI-Summary-Plus) (👨‍💻 2 · 🔀 1 · 📥 11 · ⏱️ 06.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-ai-summary-wcowin) (📥 70 / month):
@@ -3245,7 +3258,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/ndrezn/mkdocs-copy-markdown">mkdocs-copy-markdown</a></b>  - 🥉7 ·  ⭐ 3 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin which adds a Copy markdown button to all site pages.</summary>
 
-- [GitHub](https://github.com/ndrezn/mkdocs-copy-markdown) (⏱️ 29.05.2025)
+- [GitHub](https://github.com/ndrezn/mkdocs-copy-markdown) (🔀 1 · ⏱️ 29.05.2025)
 - [PyPi](https://pypi.org/project/mkdocs-copy-markdown) (📥 220 / month):
 	```
 	pip install mkdocs-copy-markdown
@@ -3282,7 +3295,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - ask
    ```
 </details>
-<details><summary><b><a href="https://github.com/byrnereese/mkdocs-page-actions">mkdocs-page-actions</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Adds a pull-down menu to mkdocs sites that enables quick actions to take vis-a-vis page content.</summary>
+<details><summary><b><a href="https://github.com/byrnereese/mkdocs-page-actions">mkdocs-page-actions</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Adds a pull-down menu to mkdocs sites that enables quick actions to take vis-a-vis page content.</summary>
 
 - [GitHub](https://github.com/byrnereese/mkdocs-page-actions) (⏱️ 03.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-page-actions):
@@ -3295,7 +3308,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - page-actions
    ```
 </details>
-<details><summary><b><a href="https://github.com/agibson22/mkdocs-llm-context">mkdocs-llm-context</a></b>  - 🥉3 ·  ⭐ 4 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Bundle your MkDocs site into a single file for LLM or agent context.</summary>
+<details><summary><b><a href="https://github.com/agibson22/mkdocs-llm-context">mkdocs-llm-context</a></b>  - 🥉3 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Bundle your MkDocs site into a single file for LLM or agent context.</summary>
 
 - [GitHub](https://github.com/agibson22/mkdocs-llm-context) (👨‍💻 2 · ⏱️ 25.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-llm-context) (📥 17 / month):
@@ -3561,7 +3574,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - gherkin-plugin
    ```
 </details>
-<details><summary><b><a href="https://github.com/liWanr/mkdocs-webmention">mkdocs-webmention</a></b>  - 🥉2 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/liWanr/mkdocs-webmention">mkdocs-webmention</a></b>  - 🥉3 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/liWanr/mkdocs-webmention) (⏱️ 10.08.2026)
 - [PyPi](https://pypi.org/project/mkdocs-webmention) (📥 29 / month):
@@ -3582,7 +3595,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <details><summary><b><a href="https://github.com/ultrabug/mkdocs-static-i18n">static-i18n</a></b>  - 🥇22 ·  ⭐ 320 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs i18n plugin using static translation markdown files.</summary>
 
-- [GitHub](https://github.com/ultrabug/mkdocs-static-i18n) (👨‍💻 14 · 🔀 49 · 📦 3K · 📋 160 - 19% open · ⏱️ 02.03.2026)
+- [GitHub](https://github.com/ultrabug/mkdocs-static-i18n) (👨‍💻 15 · 🔀 49 · 📦 3K · 📋 160 - 19% open · ⏱️ 02.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-static-i18n) (📥 340K / month):
 	```
 	pip install mkdocs-static-i18n
@@ -3665,7 +3678,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <details><summary><b><a href="https://github.com/mkdocs/mkdocs-redirects">mkdocs-redirects</a></b>  - 🥇26 ·  ⭐ 240 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Open source plugin for Mkdocs page redirects.</summary>
 
-- [GitHub](https://github.com/mkdocs/mkdocs-redirects) (👨‍💻 18 · 🔀 32 · 📦 8.6K · 📋 43 - 34% open · ⏱️ 19.05.2025)
+- [GitHub](https://github.com/mkdocs/mkdocs-redirects) (👨‍💻 18 · 🔀 32 · 📦 8.7K · 📋 43 - 34% open · ⏱️ 19.05.2025)
 - [PyPi](https://pypi.org/project/mkdocs-redirects) (📥 1.2M / month):
 	```
 	pip install mkdocs-redirects
@@ -3676,9 +3689,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - redirects
    ```
 </details>
-<details><summary><b><a href="https://github.com/manuzhang/mkdocs-htmlproofer-plugin">htmlproofer</a></b>  - 🥇23 ·  ⭐ 50 · 📉 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that validates URL in rendered html files.</summary>
+<details><summary><b><a href="https://github.com/manuzhang/mkdocs-htmlproofer-plugin">htmlproofer</a></b>  - 🥇23 ·  ⭐ 50 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that validates URL in rendered html files.</summary>
 
-- [GitHub](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) (👨‍💻 18 · 🔀 20 · 📦 790 · 📋 46 - 15% open · ⏱️ 02.11.2026)
+- [GitHub](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) (👨‍💻 18 · 🔀 20 · 📦 790 · 📋 46 - 15% open · ⏱️ 09.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-htmlproofer-plugin) (📥 69K / month):
 	```
 	pip install mkdocs-htmlproofer-plugin
@@ -3702,7 +3715,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - autorefs
    ```
 </details>
-<details><summary><b><a href="https://github.com/shyamd/mkdocs-bibtex">bibtex</a></b>  - 🥇17 ·  ⭐ 92 · <code><a href="https://tldrlegal.com/search?query=BSD-3-Clause-LBNL">❗️BSD-3-Clause-LBNL</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for citation management using bibtex.</summary>
+<details><summary><b><a href="https://github.com/shyamd/mkdocs-bibtex">bibtex</a></b>  - 🥇17 ·  ⭐ 91 · <code><a href="https://tldrlegal.com/search?query=BSD-3-Clause-LBNL">❗️BSD-3-Clause-LBNL</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin for citation management using bibtex.</summary>
 
 - [GitHub](https://github.com/shyamd/mkdocs-bibtex) (👨‍💻 21 · 🔀 30 · 📋 59 - 10% open · ⏱️ 01.11.2025)
 - [PyPi](https://pypi.org/project/mkdocs-bibtex) (📥 35K / month):
@@ -3756,7 +3769,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/timmeinerzhagen/mkdocs-link-marker">link-marker</a></b>  - 🥈14 ·  ⭐ 9 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for marking links e.g. external ones or mails.</summary>
 
-- [GitHub](https://github.com/timmeinerzhagen/mkdocs-link-marker) (👨‍💻 3 · 🔀 2 · 📦 58 · 📋 5 - 40% open · ⏱️ 04.03.2026)
+- [GitHub](https://github.com/timmeinerzhagen/mkdocs-link-marker) (👨‍💻 3 · 🔀 2 · 📦 60 · 📋 5 - 40% open · ⏱️ 04.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-link-marker) (📥 340K / month):
 	```
 	pip install mkdocs-link-marker
@@ -3806,7 +3819,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - roamlinks
    ```
 </details>
-<details><summary><b><a href="https://github.com/dsferg/mkdocs-easylinks-plugin">mkdocs-easylinks-plugin</a></b>  - 🥈12 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin that allows you to create cross-references and embed images by specifying only the filename, without..</summary>
+<details><summary><b><a href="https://github.com/dsferg/mkdocs-easylinks-plugin">mkdocs-easylinks-plugin</a></b>  - 🥈12 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin that allows you to create cross-references and embed images by specifying only the filename, without..</summary>
 
 - [GitHub](https://github.com/dsferg/mkdocs-easylinks-plugin) (👨‍💻 3 · ⏱️ 17.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-easylinks-plugin) (📥 570 / month):
@@ -3847,7 +3860,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/filipchristiansen/mkdocs-source-links">mkdocs-source-links</a></b>  - 🥈11 ·  ⭐ 2 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that rewrites `[text](../path)` inline links and `[ref]: ../path` definitions to forge view URLs during..</summary>
 
-- [GitHub](https://github.com/filipchristiansen/mkdocs-source-links) (👨‍💻 2 · 📥 32 · ⏱️ 03.11.2026)
+- [GitHub](https://github.com/filipchristiansen/mkdocs-source-links) (👨‍💻 2 · 📥 39 · ⏱️ 11.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-source-links) (📥 240 / month):
 	```
 	pip install mkdocs-source-links
@@ -3858,7 +3871,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - source-links
    ```
 </details>
-<details><summary><b><a href="https://github.com/theskumar/autolink-references-mkdocs-plugin">Autolink References</a></b>  - 🥉9 ·  ⭐ 19 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin to provides GitHub like autolink references in Mkdocs.</summary>
+<details><summary><b><a href="https://github.com/theskumar/autolink-references-mkdocs-plugin">Autolink References</a></b>  - 🥉9 ·  ⭐ 19 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that adds GitHub-like autolink references.</summary>
 
 - [GitHub](https://github.com/theskumar/autolink-references-mkdocs-plugin) (👨‍💻 3 · 🔀 8 · 📋 4 - 25% open · ⏱️ 28.12.2023)
 - [PyPi](https://pypi.org/project/autolink-references-mkdocs-plugin) (📥 7.3K / month):
@@ -3884,7 +3897,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - abs-to-rel
    ```
 </details>
-<details><summary><b><a href="https://github.com/dsferg/mkdocs-stablelinks-plugin">mkdocs-stablelinks-plugin</a></b>  - 🥉9 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Stable internal linking and durable external URLs for MkDocs via a page ID system.</summary>
+<details><summary><b><a href="https://github.com/dsferg/mkdocs-stablelinks-plugin">mkdocs-stablelinks-plugin</a></b>  - 🥉9 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Stable internal linking and durable external URLs for MkDocs via a page ID system.</summary>
 
 - [GitHub](https://github.com/dsferg/mkdocs-stablelinks-plugin) (👨‍💻 2 · ⏱️ 14.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-stablelinks-plugin) (📥 24 / month):
@@ -3910,7 +3923,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mdx_wikilink_plus
    ```
 </details>
-<details><summary><b><a href="https://github.com/carlos-truong/mkdocs-wikilinks">mkdocs-wikilinks-plugin</a></b>  - 🥉8 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/carlos-truong/mkdocs-wikilinks">mkdocs-wikilinks-plugin</a></b>  - 🥉8 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/carlos-truong/mkdocs-wikilinks) (👨‍💻 5 · 📦 8 · ⏱️ 18.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-wikilinks-plugin) (📥 2.5K / month):
@@ -3923,7 +3936,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - ezlinks
    ```
 </details>
-<details><summary><b><a href="https://github.com/ACCESS-NRI/mkdocs_resolve_absolute_urls_plugin">mkdocs-resolve-absolute-urls-plugin</a></b>  - 🥉8 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that adds support for absolute URLs.</summary>
+<details><summary><b><a href="https://github.com/ACCESS-NRI/mkdocs_resolve_absolute_urls_plugin">mkdocs-resolve-absolute-urls-plugin</a></b>  - 🥉8 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that adds support for absolute URLs.</summary>
 
 - [GitHub](https://github.com/ACCESS-NRI/mkdocs_resolve_absolute_urls_plugin) (👨‍💻 3 · 📥 4 · ⏱️ 30.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-resolve-absolute-urls-plugin):
@@ -4027,7 +4040,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - wikipedia
    ```
 </details>
-<details><summary><b><a href="https://github.com/Carreau/mkdocs_intersphinx">mkdocs-intersphinx</a></b>  - 🥉4 ·  ⭐ 1 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/Carreau/mkdocs_intersphinx">mkdocs-intersphinx</a></b>  - 🥉4 ·  ⭐ 1 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/Carreau/mkdocs_intersphinx) (⏱️ 27.12.2025)
 - [PyPi](https://pypi.org/project/mkdocs-intersphinx) (📥 11K / month):
@@ -4105,7 +4118,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <details><summary><b><a href="https://github.com/facelessuser/pymdown-extensions">PyMdown Extensions</a></b>  - 🥇34 ·  ⭐ 1.1K · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/markdown.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Extensions for Python Markdown.</summary>
 
-- [GitHub](https://github.com/facelessuser/pymdown-extensions) (👨‍💻 59 · 🔀 280 · 📦 67K · 📋 440 - 3% open · ⏱️ 05.11.2026)
+- [GitHub](https://github.com/facelessuser/pymdown-extensions) (👨‍💻 59 · 🔀 280 · 📦 67K · 📋 440 - 3% open · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/pymdown-extensions) (📥 18M / month):
 	```
 	pip install pymdown-extensions
@@ -4157,6 +4170,19 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mdx_math
    ```
 </details>
+<details><summary><b><a href="https://github.com/PGijsbers/admonitions">mkdocs-github-admonitions-plugin</a></b>  - 🥇20 ·  ⭐ 28 · 📈 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Plugin to convert GitHub-style admonitions to `mkdocs-material`-style admonitions when building docs.</summary>
+
+- [GitHub](https://github.com/PGijsbers/admonitions) (👨‍💻 3 · 🔀 4 · 📦 310 · 📋 6 - 33% open · ⏱️ 06.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-github-admonitions-plugin) (📥 420K / month):
+	```
+	pip install mkdocs-github-admonitions-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - gh-admonitions
+   ```
+</details>
 <details><summary><b><a href="https://github.com/sondregronas/mkdocs-callouts">mkdocs-callouts</a></b>  - 🥇19 ·  ⭐ 52 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A simple MkDocs plugin that converts Obsidian callout blocks to mkdocs supported Admonitions.</summary>
 
 - [GitHub](https://github.com/sondregronas/mkdocs-callouts) (👨‍💻 3 · 🔀 4 · 📦 1.5K · ⏱️ 27.08.2026)
@@ -4172,7 +4198,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/oprypin/markdown-callouts">markdown-callouts</a></b>  - 🥇17 ·  ⭐ 45 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/markdown.svg" style="display:inline;" width="13" height="13"></code><br>Markdown extension: a classier syntax for admonitions.</summary>
 
-- [GitHub](https://github.com/oprypin/markdown-callouts) (👨‍💻 2 · 🔀 15 · 📦 840 · 📋 13 - 38% open · ⏱️ 17.04.2026)
+- [GitHub](https://github.com/oprypin/markdown-callouts) (👨‍💻 2 · 🔀 15 · 📦 850 · 📋 13 - 38% open · ⏱️ 17.04.2026)
 - [PyPi](https://pypi.org/project/markdown-callouts) (📥 86K / month):
 	```
 	pip install markdown-callouts
@@ -4184,20 +4210,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - github-callouts
    ```
 </details>
-<details><summary><b><a href="https://github.com/PGijsbers/admonitions">mkdocs-github-admonitions-plugin</a></b>  - 🥇17 ·  ⭐ 28 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Plugin to convert GitHub-style admonitions to `mkdocs-material`-style admonitions when building docs.</summary>
-
-- [GitHub](https://github.com/PGijsbers/admonitions) (👨‍💻 2 · 🔀 4 · 📦 300 · 📋 6 - 50% open · ⏱️ 02.06.2025)
-- [PyPi](https://pypi.org/project/mkdocs-github-admonitions-plugin) (📥 420K / month):
-	```
-	pip install mkdocs-github-admonitions-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - gh-admonitions
-   ```
-</details>
-<details><summary><b><a href="https://github.com/ewels/mkdocs-quiz">mkdocs-quiz</a></b>  - 🥇17 ·  ⭐ 21 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs plugin to create simple quizzes in markdown.</summary>
+<details><summary><b><a href="https://github.com/ewels/mkdocs-quiz">mkdocs-quiz</a></b>  - 🥇17 ·  ⭐ 21 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs plugin to create simple quizzes in markdown.</summary>
 
 - [GitHub](https://github.com/ewels/mkdocs-quiz) (👨‍💻 8 · 🔀 10 · 📋 34 - 38% open · ⏱️ 08.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-quiz) (📥 2.4K / month):
@@ -4251,7 +4264,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/markup-carve/mkdocs-carve">mkdocs-carve</a></b>  - 🥈12 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for the Carve markup language (renders .crv pages).</summary>
 
-- [GitHub](https://github.com/markup-carve/mkdocs-carve) (⏱️ 05.11.2026)
+- [GitHub](https://github.com/markup-carve/mkdocs-carve) (⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-carve) (📥 150 / month):
 	```
 	pip install mkdocs-carve
@@ -4327,7 +4340,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - subscript
    ```
 </details>
-<details><summary><b><a href="https://github.com/raineblog/mkdocs-katex-ssr">mkdocs-katex-ssr</a></b>  - 🥈9 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs KaTeX SSR Plugin.</summary>
+<details><summary><b><a href="https://github.com/raineblog/mkdocs-katex-ssr">mkdocs-katex-ssr</a></b>  - 🥈9 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs KaTeX SSR Plugin.</summary>
 
 - [GitHub](https://github.com/raineblog/mkdocs-katex-ssr) (👨‍💻 2 · 📦 3 · ⏱️ 28.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-katex-ssr) (📥 27 / month):
@@ -4390,7 +4403,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - markdown_katex
    ```
 </details>
-<details><summary><b><a href="https://github.com/aireilly/mkdocs-asciidoctor-backend">mkdocs-asciidoctor-backend</a></b>  - 🥉7 ·  ⭐ 11 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/aireilly/mkdocs-asciidoctor-backend">mkdocs-asciidoctor-backend</a></b>  - 🥉7 ·  ⭐ 11 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/aireilly/mkdocs-asciidoctor-backend) (🔀 4 · 📋 3 - 66% open · ⏱️ 27.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-asciidoctor-backend) (📥 12K / month):
@@ -4506,7 +4519,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - treeview
    ```
 </details>
-<details><summary><b><a href="https://github.com/fabieu/mkdocs-color-swatch-plugin">mkdocs-color-swatch-plugin</a></b>  - 🥉6 ·  ⭐ 1 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A lightweight plugin that lets you insert inline color swatches into your Markdown docs using a simple, readable syntax.</summary>
+<details><summary><b><a href="https://github.com/fabieu/mkdocs-color-swatch-plugin">mkdocs-color-swatch-plugin</a></b>  - 🥉6 ·  ⭐ 1 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A lightweight plugin that lets you insert inline color swatches into your Markdown docs using a simple, readable syntax.</summary>
 
 - [GitHub](https://github.com/fabieu/mkdocs-color-swatch-plugin) (👨‍💻 2 · ⏱️ 30.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-color-swatch-plugin) (📥 16 / month):
@@ -4734,7 +4747,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/oprypin/mkdocs-literate-nav">literate-nav</a></b>  - 🥇21 ·  ⭐ 100 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to specify the navigation in Markdown instead of YAML.</summary>
 
-- [GitHub](https://github.com/oprypin/mkdocs-literate-nav) (🔀 11 · 📦 4K · 📋 34 - 47% open · ⏱️ 17.04.2026)
+- [GitHub](https://github.com/oprypin/mkdocs-literate-nav) (👨‍💻 3 · 🔀 13 · 📦 4.1K · 📋 34 - 44% open · ⏱️ 11.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-literate-nav) (📥 770K / month):
 	```
 	pip install mkdocs-literate-nav
@@ -4823,9 +4836,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - gallery
    ```
 </details>
-<details><summary><b><a href="https://github.com/SierraSoftworks/roadmap">mkdocs-roadmap</a></b>  - 🥈14 ·  ⭐ 19 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Manage your project and team road maps in YAML.</summary>
+<details><summary><b><a href="https://github.com/SierraSoftworks/roadmap">mkdocs-roadmap</a></b>  - 🥈14 ·  ⭐ 19 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Manage your project and team road maps in YAML.</summary>
 
-- [GitHub](https://github.com/SierraSoftworks/roadmap) (👨‍💻 11 · 🔀 4 · 📥 1K · 📋 5 - 20% open · ⏱️ 03.11.2026)
+- [GitHub](https://github.com/SierraSoftworks/roadmap) (👨‍💻 11 · 🔀 4 · 📥 1.1K · ⏱️ 11.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-roadmap) (📥 35 / month):
 	```
 	pip install mkdocs-roadmap
@@ -4862,7 +4875,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - pagetree
    ```
 </details>
-<details><summary><b><a href="https://github.com/timo-reymann/mkdocs-decision-records">mkdocs-decision-records</a></b>  - 🥈14 ·  ⭐ 12 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Manage decision records with mkdocs in a customizable and minimal fashion.</summary>
+<details><summary><b><a href="https://github.com/timo-reymann/mkdocs-decision-records">mkdocs-decision-records</a></b>  - 🥈14 ·  ⭐ 12 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Manage decision records with mkdocs in a customizable and minimal fashion.</summary>
 
 - [GitHub](https://github.com/timo-reymann/mkdocs-decision-records) (👨‍💻 3 · 📦 2 · 📋 5 - 20% open · ⏱️ 03.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-decision-records) (📥 790 / month):
@@ -4877,7 +4890,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/EddyLuten/mkdocs-live-edit-plugin">mkdocs-live-edit-plugin</a></b>  - 🥈13 ·  ⭐ 37 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An MkDocs plugin that allows editing pages directly from the browser.</summary>
 
-- [GitHub](https://github.com/EddyLuten/mkdocs-live-edit-plugin) (👨‍💻 6 · 🔀 10 · 📦 19 · ⏱️ 09.04.2026)
+- [GitHub](https://github.com/EddyLuten/mkdocs-live-edit-plugin) (👨‍💻 6 · 🔀 10 · 📦 20 · ⏱️ 09.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-live-edit-plugin) (📥 530 / month):
 	```
 	pip install mkdocs-live-edit-plugin
@@ -4953,9 +4966,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - include_dir_to_nav
    ```
 </details>
-<details><summary><b><a href="https://github.com/cmsirbu/mkdocs-ansible-collection">mkdocs-ansible-collection</a></b>  - 🥉9 ·  ⭐ 6 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin that automatically generates pages for Ansible Collections.</summary>
+<details><summary><b><a href="https://github.com/cmsirbu/mkdocs-ansible-collection">mkdocs-ansible-collection</a></b>  - 🥉9 ·  ⭐ 6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin that automatically generates pages for Ansible Collections.</summary>
 
-- [GitHub](https://github.com/cmsirbu/mkdocs-ansible-collection) (👨‍💻 2 · 🔀 2 · 📥 2 · 📦 3 · 📋 16 - 50% open · ⏱️ 17.09.2026)
+- [GitHub](https://github.com/cmsirbu/mkdocs-ansible-collection) (👨‍💻 2 · 🔀 2 · 📥 3 · 📦 3 · 📋 16 - 50% open · ⏱️ 17.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-ansible-collection) (📥 380 / month):
 	```
 	pip install mkdocs-ansible-collection
@@ -4979,7 +4992,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - toc-sidebar
    ```
 </details>
-<details><summary><b><a href="https://github.com/matusdrobuliak66/mkdocs-nav-numbering-plugin">mkdocs-nav-numbering-plugin</a></b>  - 🥉9 ·  ⭐ 4 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that adds hierarchical numbering to navigation items and page headings.</summary>
+<details><summary><b><a href="https://github.com/matusdrobuliak66/mkdocs-nav-numbering-plugin">mkdocs-nav-numbering-plugin</a></b>  - 🥉9 ·  ⭐ 4 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that adds hierarchical numbering to navigation items and page headings.</summary>
 
 - [GitHub](https://github.com/matusdrobuliak66/mkdocs-nav-numbering-plugin) (⏱️ 10.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-nav-numbering-plugin) (📥 350 / month):
@@ -5003,19 +5016,6 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
    ```yaml
    plugins:
      - mkdocs-nav-enhancements
-   ```
-</details>
-<details><summary><b><a href="https://github.com/Guts/mkdocs-related-content">mkdocs-related-content-plugin</a></b>  - 🥉9 ·  ⭐ 1 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/Guts/mkdocs-related-content) (👨‍💻 3 · 📦 2 · ⏱️ 17.08.2026)
-- [PyPi](https://pypi.org/project/mkdocs-related-content-plugin) (📥 45 / month):
-	```
-	pip install mkdocs-related-content-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - related-content
    ```
 </details>
 <details><summary><b><a href="https://github.com/luka-sherman/mkdocs-nested-tabs">mkdocs-nested-tabs</a></b>  - 🥉9 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -5044,7 +5044,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - vim-md-tags
    ```
 </details>
-<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-strip-number-prefix">vexy-mkdocs-strip-number-prefix</a></b>  - 🥉8 ·  ⭐ 1 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that strips numeric prefixes from page URLs while preserving them in source filenames for natural sorting.</summary>
+<details><summary><b><a href="https://github.com/vexyart/vexy-mkdocs-strip-number-prefix">vexy-mkdocs-strip-number-prefix</a></b>  - 🥉8 ·  ⭐ 1 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that strips numeric prefixes from page URLs while preserving them in source filenames for natural sorting.</summary>
 
 - [GitHub](https://github.com/vexyart/vexy-mkdocs-strip-number-prefix) (👨‍💻 2 · 📥 29 · ⏱️ 13.10.2026)
 - [PyPi](https://pypi.org/project/vexy-mkdocs-strip-number-prefix) (📥 67 / month):
@@ -5055,6 +5055,19 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
    ```yaml
    plugins:
      - strip-number-prefix
+   ```
+</details>
+<details><summary><b><a href="https://github.com/Guts/mkdocs-related-content">mkdocs-related-content-plugin</a></b>  - 🥉8 ·  ⭐ 1 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+
+- [GitHub](https://github.com/Guts/mkdocs-related-content) (👨‍💻 3 · 📦 2 · ⏱️ 17.08.2026)
+- [PyPi](https://pypi.org/project/mkdocs-related-content-plugin) (📥 45 / month):
+	```
+	pip install mkdocs-related-content-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - related-content
    ```
 </details>
 <details><summary><b><a href="https://github.com/luka-sherman/mkdocs-cheatsheet">mkdocs-cheatsheet</a></b>  - 🥉8 · 🐣 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
@@ -5070,7 +5083,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - cheatsheet
    ```
 </details>
-<details><summary><b><a href="https://github.com/develmusa/mkdocs-network-graph-plugin">mkdocs-network-graph-plugin</a></b>  - 🥉7 ·  ⭐ 8 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that generates interactive network graph visualizations of your documentation structure, showing..</summary>
+<details><summary><b><a href="https://github.com/develmusa/mkdocs-network-graph-plugin">mkdocs-network-graph-plugin</a></b>  - 🥉7 ·  ⭐ 8 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that generates interactive network graph visualizations of your documentation structure, showing..</summary>
 
 - [GitHub](https://github.com/develmusa/mkdocs-network-graph-plugin) (👨‍💻 3 · 🔀 2 · ⏱️ 04.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-network-graph-plugin) (📥 1.3K / month):
@@ -5094,6 +5107,19 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
    ```yaml
    plugins:
      - authors
+   ```
+</details>
+<details><summary><b><a href="https://github.com/idlesign/mkdocs-navsorted-plugin">mkdocs-navsorted-plugin</a></b>  - 🥉7 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin to get nav sorted without yml directives.</summary>
+
+- [GitHub](https://github.com/idlesign/mkdocs-navsorted-plugin) (📦 2 · ⏱️ 10.11.2026)
+- [PyPi](https://pypi.org/project/mkdocs-navsorted-plugin) (📥 190 / month):
+	```
+	pip install mkdocs-navsorted-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - navsorted
    ```
 </details>
 <details><summary><b><a href="https://github.com/magicaljellybeans/mkdocs_schema_reader">schema-reader</a></b>  - 🥉6 ·  ⭐ 7 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A mkdocs plugin that scans specified directories and files for JSON Schema files, converts them to markdown and builds..</summary>
@@ -5157,20 +5183,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - select-files
    ```
 </details>
-<details><summary><b><a href="https://github.com/idlesign/mkdocs-navsorted-plugin">mkdocs-navsorted-plugin</a></b>  - 🥉6 · 💤 · <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs plugin to get nav sorted without yml directives.</summary>
-
-- [GitHub](https://github.com/idlesign/mkdocs-navsorted-plugin) (📦 2 · ⏱️ 24.05.2025)
-- [PyPi](https://pypi.org/project/mkdocs-navsorted-plugin) (📥 190 / month):
-	```
-	pip install mkdocs-navsorted-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - navsorted
-   ```
-</details>
-<details><summary><b><a href="https://github.com/dusktreader/mkdocs-editor-notes">mkdocs-editor-notes</a></b>  - 🥉6 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Provides a page of editors notes gathered from annotated document files.</summary>
+<details><summary><b><a href="https://github.com/dusktreader/mkdocs-editor-notes">mkdocs-editor-notes</a></b>  - 🥉6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Provides a page of editors notes gathered from annotated document files.</summary>
 
 - [GitHub](https://github.com/dusktreader/mkdocs-editor-notes) (⏱️ 28.01.2026)
 - [PyPi](https://pypi.org/project/mkdocs-editor-notes) (📥 8 / month):
@@ -5183,7 +5196,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - editor-notes
    ```
 </details>
-<details><summary><b><a href="https://github.com/SawyerRensel/mkdocs-graph-view">mkdocs-graph-view</a></b>  - 🥉5 ·  ⭐ 1 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that creates interactive graph visualizations of page connections.</summary>
+<details><summary><b><a href="https://github.com/SawyerRensel/mkdocs-graph-view">mkdocs-graph-view</a></b>  - 🥉5 ·  ⭐ 1 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin that creates interactive graph visualizations of page connections.</summary>
 
 - [GitHub](https://github.com/SawyerRensel/mkdocs-graph-view) (⏱️ 06.12.2025)
 - [PyPi](https://pypi.org/project/mkdocs-graph-view) (📥 29 / month):
@@ -5209,7 +5222,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - random_walk
    ```
 </details>
-<details><summary><b><a href="https://github.com/czarny/mkdocs-auto-tags">mkdocs-auto-tags</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that automatically tags pages based on their position in the navigation hierarchy.</summary>
+<details><summary><b><a href="https://github.com/czarny/mkdocs-auto-tags">mkdocs-auto-tags</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin that automatically tags pages based on their position in the navigation hierarchy.</summary>
 
 - [GitHub](https://github.com/czarny/mkdocs-auto-tags) (⏱️ 23.03.2026)
 - [PyPi](https://pypi.org/project/mkdocs-auto-tags) (📥 8 / month):
@@ -5371,7 +5384,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - exclude-search
    ```
 </details>
-<details><summary><b><a href="https://github.com/xjodoin/rangefind">mkdocs-rangefind</a></b>  - 🥈14 ·  ⭐ 3 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Range-packed static search for large sites with no search server.</summary>
+<details><summary><b><a href="https://github.com/xjodoin/rangefind">mkdocs-rangefind</a></b>  - 🥈11 ·  ⭐ 3 · 📉 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Range-packed static search for large sites with no search server.</summary>
 
 - [GitHub](https://github.com/xjodoin/rangefind) (📦 5 · ⏱️ 05.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-rangefind) (📥 23 / month):
@@ -5384,7 +5397,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - rangefind
    ```
 </details>
-<details><summary><b><a href="https://github.com/try0/mkdocs-toc-md">mkdocs-toc-md</a></b>  - 🥈10 ·  ⭐ 6 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs-toc-md is an mkdocs plugin that generates a toc (table of contents) as markdown. Writes toc to index.md.</summary>
+<details><summary><b><a href="https://github.com/try0/mkdocs-toc-md">mkdocs-toc-md</a></b>  - 🥈10 ·  ⭐ 6 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>mkdocs-toc-md is an mkdocs plugin that generates a toc (table of contents) as markdown. Writes toc to index.md.</summary>
 
 - [GitHub](https://github.com/try0/mkdocs-toc-md) (👨‍💻 2 · 📦 54 · 📋 8 - 12% open · ⏱️ 21.06.2026)
 - [PyPi](https://pypi.org/project/mkdocs-toc-md) (📥 2.5K / month):
@@ -5463,7 +5476,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - extract_listings
    ```
 </details>
-<details><summary><b><a href="https://github.com/six-two/mkdocs-search-links-plugin">mkdocs-search-links-plugin</a></b>  - 🥉3 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Add a page to your documentation where you can see / search all external links.</summary>
+<details><summary><b><a href="https://github.com/six-two/mkdocs-search-links-plugin">mkdocs-search-links-plugin</a></b>  - 🥉3 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Add a page to your documentation where you can see / search all external links.</summary>
 
 - [GitHub](https://github.com/six-two/mkdocs-search-links-plugin) (⏱️ 15.11.2025)
 - [PyPi](https://pypi.org/project/mkdocs-search-links-plugin) (📥 14 / month):
@@ -5484,7 +5497,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <details><summary><b><a href="https://github.com/orzih/mkdocs-with-pdf">mkdocs-with-pdf</a></b>  - 🥇24 ·  ⭐ 390 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Generate a single PDF file from MkDocs repository.</summary>
 
-- [GitHub](https://github.com/orzih/mkdocs-with-pdf) (👨‍💻 6 · 🔀 72 · 📦 950 · 📋 120 - 57% open · ⏱️ 14.10.2021)
+- [GitHub](https://github.com/orzih/mkdocs-with-pdf) (👨‍💻 6 · 🔀 71 · 📦 960 · 📋 120 - 57% open · ⏱️ 14.10.2021)
 - [PyPi](https://pypi.org/project/mkdocs-with-pdf) (📥 130K / month):
 	```
 	pip install mkdocs-with-pdf
@@ -5497,7 +5510,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/timvink/mkdocs-print-site-plugin">print-site</a></b>  - 🥇24 ·  ⭐ 190 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs Plugin that adds an additional page that combines all pages, allowing easy exports to PDF and standalone HTML.</summary>
 
-- [GitHub](https://github.com/timvink/mkdocs-print-site-plugin) (👨‍💻 17 · 🔀 30 · 📦 640 · 📋 120 - 10% open · ⏱️ 04.11.2026)
+- [GitHub](https://github.com/timvink/mkdocs-print-site-plugin) (👨‍💻 17 · 🔀 30 · 📦 650 · 📋 120 - 10% open · ⏱️ 04.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-print-site-plugin) (📥 150K / month):
 	```
 	pip install mkdocs-print-site-plugin
@@ -5508,9 +5521,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - print-site
    ```
 </details>
-<details><summary><b><a href="https://github.com/domWalters/mkdocs-to-pdf">mkdocs-to-pdf</a></b>  - 🥇24 ·  ⭐ 62 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Generate a single PDF file from an MkDocs repository.</summary>
+<details><summary><b><a href="https://github.com/domWalters/mkdocs-to-pdf">mkdocs-to-pdf</a></b>  - 🥇24 ·  ⭐ 62 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Generate a single PDF file from an MkDocs repository.</summary>
 
-- [GitHub](https://github.com/domWalters/mkdocs-to-pdf) (👨‍💻 18 · 🔀 22 · 📥 8 · 📦 50 · 📋 68 - 17% open · ⏱️ 17.10.2026)
+- [GitHub](https://github.com/domWalters/mkdocs-to-pdf) (👨‍💻 18 · 🔀 22 · 📥 8 · 📦 52 · 📋 68 - 17% open · ⏱️ 17.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-to-pdf) (📥 31K / month):
 	```
 	pip install mkdocs-to-pdf
@@ -5536,7 +5549,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/adrienbrignon/mkdocs-exporter">mkdocs-exporter</a></b>  - 🥈18 ·  ⭐ 130 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire..</summary>
 
-- [GitHub](https://github.com/adrienbrignon/mkdocs-exporter) (👨‍💻 4 · 🔀 16 · 📦 56 · 📋 72 - 56% open · ⏱️ 29.10.2024)
+- [GitHub](https://github.com/adrienbrignon/mkdocs-exporter) (👨‍💻 4 · 🔀 16 · 📦 57 · 📋 72 - 56% open · ⏱️ 29.10.2024)
 - [PyPi](https://pypi.org/project/mkdocs-exporter) (📥 20K / month):
 	```
 	pip install mkdocs-exporter
@@ -5594,7 +5607,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - pdf-with-js
    ```
 </details>
-<details><summary><b><a href="https://github.com/brospars/mkdocs-page-pdf">mkdocs-page-pdf</a></b>  - 🥉10 ·  ⭐ 18 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An Mkdocs plugin to download documentation pages as pdf.</summary>
+<details><summary><b><a href="https://github.com/brospars/mkdocs-page-pdf">mkdocs-page-pdf</a></b>  - 🥉10 ·  ⭐ 19 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>An Mkdocs plugin to download documentation pages as pdf.</summary>
 
 - [GitHub](https://github.com/brospars/mkdocs-page-pdf) (👨‍💻 2 · 🔀 5 · 📦 34 · 📋 15 - 46% open · ⏱️ 18.12.2025)
 - [PyPi](https://pypi.org/project/mkdocs-page-pdf) (📥 1.2K / month):
@@ -5607,7 +5620,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - page-to-pdf
    ```
 </details>
-<details><summary><b><a href="https://github.com/johnny/mkdocs-confluence-publisher">mkdocs-confluence-publisher</a></b>  - 🥉10 ·  ⭐ 5 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/johnny/mkdocs-confluence-publisher">mkdocs-confluence-publisher</a></b>  - 🥉10 ·  ⭐ 5 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/johnny/mkdocs-confluence-publisher) (👨‍💻 7 · 🔀 9 · 📦 6 · 📋 6 - 66% open · ⏱️ 16.05.2026)
 - [PyPi](https://pypi.org/project/mkdocs-confluence-publisher) (📥 4.4K / month):
@@ -5620,7 +5633,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - confluence-publisher
    ```
 </details>
-<details><summary><b><a href="https://github.com/jmanteau/mkdocs-to-confluence">mkdocs-to-confluence</a></b>  - 🥉8 ·  ⭐ 5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for converting and uploading Markdown pages to Confluence (via REST API).</summary>
+<details><summary><b><a href="https://github.com/jmanteau/mkdocs-to-confluence">mkdocs-to-confluence</a></b>  - 🥉9 ·  ⭐ 5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin for converting and uploading Markdown pages to Confluence (via REST API).</summary>
 
 - [GitHub](https://github.com/jmanteau/mkdocs-to-confluence) (👨‍💻 4 · 🔀 5 · 📋 7 - 71% open · ⏱️ 12.08.2026)
 - [PyPi](https://pypi.org/project/mkdocs-to-confluence) (📥 890 / month):
@@ -5646,7 +5659,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mk2pdf-export
    ```
 </details>
-<details><summary><b><a href="https://github.com/pawamoy/mkdocs-manpage">mkdocs-manpage</a></b>  - 🥉7 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/3hkKRql">ISC</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate a manpage from the documentation site.</summary>
+<details><summary><b><a href="https://github.com/pawamoy/mkdocs-manpage">mkdocs-manpage</a></b>  - 🥉7 ·  ⭐ 2 · <code><a href="http://bit.ly/3hkKRql">ISC</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to generate a manpage from the documentation site.</summary>
 
 - [GitHub](https://github.com/pawamoy/mkdocs-manpage) (👨‍💻 2 · 📦 3 · ⏱️ 23.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-manpage) (📥 15 / month):
@@ -5672,7 +5685,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - with-pdf
    ```
 </details>
-<details><summary><b><a href="https://github.com/Meaningful-Data/docflux-mkdocs">docflux-mkdocs</a></b>  - 🥉6 · ➕ · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Plugin for MKDocs. Generates formatted docx and pdf with full support for mermaid, and additional features.</summary>
+<details><summary><b><a href="https://github.com/Meaningful-Data/docflux-mkdocs">docflux-mkdocs</a></b>  - 🥉6 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Plugin for MKDocs. Generates formatted docx and pdf with full support for mermaid, and additional features.</summary>
 
 - [GitHub](https://github.com/Meaningful-Data/docflux-mkdocs) (🔀 1 · ⏱️ 16.02.2026)
 - [PyPi](https://pypi.org/project/docflux-mkdocs) (📥 15 / month):
@@ -5699,7 +5712,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - zip_folders
    ```
 </details>
-<details><summary><b><a href="https://github.com/kreemer/mkdocs-to-kirby">mkdocs-to-kirby</a></b>  - 🥉5 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/kreemer/mkdocs-to-kirby">mkdocs-to-kirby</a></b>  - 🥉5 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/kreemer/mkdocs-to-kirby) (⏱️ 30.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-to-kirby) (📥 31 / month):
@@ -5772,7 +5785,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/backstage/mkdocs-techdocs-core">techdocs-core</a></b>  - 🥇27 ·  ⭐ 120 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>The core MkDocs plugin used by Backstages TechDocs as a wrapper around multiple MkDocs plugins and Python Markdown..</summary>
 
-- [GitHub](https://github.com/backstage/mkdocs-techdocs-core) (👨‍💻 51 · 🔀 77 · 📦 230 · ⏱️ 04.11.2026)
+- [GitHub](https://github.com/backstage/mkdocs-techdocs-core) (👨‍💻 51 · 🔀 76 · 📦 230 · ⏱️ 04.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-techdocs-core) (📥 590K / month):
 	```
 	pip install mkdocs-techdocs-core
@@ -5811,7 +5824,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/athackst/mkdocs-simple-plugin">simple</a></b>  - 🥇22 ·  ⭐ 51 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Build documentation files inside your code into a MkDocs site.</summary>
 
-- [GitHub](https://github.com/athackst/mkdocs-simple-plugin) (👨‍💻 8 · 🔀 9 · 📦 65 · ⏱️ 05.11.2026)
+- [GitHub](https://github.com/athackst/mkdocs-simple-plugin) (👨‍💻 8 · 🔀 9 · 📦 65 · ⏱️ 12.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-simple-plugin) (📥 22K / month):
 	```
 	pip install mkdocs-simple-plugin
@@ -5864,7 +5877,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 <details><summary><b><a href="https://github.com/ldeluigi/markdown-docs">markdown-docs</a></b>  - 🥈16 ·  ⭐ 29 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/project.svg" style="display:inline;" width="13" height="13"></code><br>Action/docker image that transforms your markdown into a static website. No need for particular configuration: it just..</summary>
 
 - [GitHub](https://github.com/ldeluigi/markdown-docs) (👨‍💻 6 · 🔀 6 · 📦 110 · ⏱️ 02.11.2026)
-- [Docker Hub](https://hub.docker.com/r/deloo/markdown-docs) (📥 52K · ⏱️ 01.11.2026):
+- [Docker Hub](https://hub.docker.com/r/deloo/markdown-docs) (📥 53K · ⏱️ 01.11.2026):
 	```
 	docker pull deloo/markdown-docs
 	```
@@ -5900,7 +5913,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/JonasDoesThings/mkdocs-exclude-unused-files">mkdocs-exclude-unused-files</a></b>  - 🥈12 ·  ⭐ 5 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Exclude orphaned (unused) static files from your mkdocs build.</summary>
 
-- [GitHub](https://github.com/JonasDoesThings/mkdocs-exclude-unused-files) (👨‍💻 4 · 🔀 2 · 📥 12 · 📦 29 · 📋 4 - 25% open · ⏱️ 11.06.2025)
+- [GitHub](https://github.com/JonasDoesThings/mkdocs-exclude-unused-files) (👨‍💻 4 · 🔀 2 · 📥 13 · 📦 29 · 📋 4 - 25% open · ⏱️ 11.06.2025)
 - [PyPi](https://pypi.org/project/mkdocs-exclude-unused-files) (📥 6.3K / month):
 	```
 	pip install mkdocs-exclude-unused-files
@@ -5913,7 +5926,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/virtualguard101/mkdocs-note">mkdocs-note</a></b>  - 🥈10 ·  ⭐ 7 · <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A MkDocs plugin to add note boxes to your documentation.</summary>
 
-- [GitHub](https://github.com/virtualguard101/mkdocs-note) (👨‍💻 2 · 🔀 1 · 📋 28 - 21% open · ⏱️ 01.10.2026)
+- [GitHub](https://github.com/virtualguard101/mkdocs-note) (👨‍💻 2 · 🔀 1 · ⏱️ 06.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-note) (📥 630 / month):
 	```
 	pip install mkdocs-note
@@ -5924,7 +5937,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mkdocs-note
    ```
 </details>
-<details><summary><b><a href="https://github.com/exordis/mkdocs-partial">mkdocs-partial</a></b>  - 🥈10 ·  ⭐ 2 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/exordis/mkdocs-partial">mkdocs-partial</a></b>  - 🥈10 ·  ⭐ 2 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/exordis/mkdocs-partial) (👨‍💻 3 · 🔀 1 · ⏱️ 29.09.2026)
 - [PyPi](https://pypi.org/project/mkdocs-partial) (📥 240 / month):
@@ -5953,7 +5966,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 </details>
 <details><summary><b><a href="https://github.com/leonardehrenfried/mkdocs-no-sitemap-plugin">no-sitemap</a></b>  - 🥉8 ·  ⭐ 4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Disable Mkdocs sitemap generation.</summary>
 
-- [GitHub](https://github.com/leonardehrenfried/mkdocs-no-sitemap-plugin) (👨‍💻 2 · 🔀 1 · 📦 62 · ⏱️ 23.08.2025)
+- [GitHub](https://github.com/leonardehrenfried/mkdocs-no-sitemap-plugin) (👨‍💻 2 · 🔀 1 · 📦 63 · ⏱️ 23.08.2025)
 - [PyPi](https://pypi.org/project/mkdocs-no-sitemap-plugin) (📥 1.6K / month):
 	```
 	pip install mkdocs-no-sitemap-plugin
@@ -5977,7 +5990,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - yamp
    ```
 </details>
-<details><summary><b><a href="https://github.com/killrazor/mkdocs-repo-docs">mkdocs-repo-docs</a></b>  - 🥉8 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to auto-discover and serve markdown files from anywhere in your repo.</summary>
+<details><summary><b><a href="https://github.com/killrazor/mkdocs-repo-docs">mkdocs-repo-docs</a></b>  - 🥉8 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to auto-discover and serve markdown files from anywhere in your repo.</summary>
 
 - [GitHub](https://github.com/killrazor/mkdocs-repo-docs) (⏱️ 09.04.2026)
 - [PyPi](https://pypi.org/project/mkdocs-repo-docs) (📥 22 / month):
@@ -6001,6 +6014,19 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
    ```yaml
    plugins:
      - suppress_logs
+   ```
+</details>
+<details><summary><b><a href="https://github.com/samrocketman/mkdocs-live-wysiwyg-plugin">mkdocs-live-wysiwyg-plugin</a></b>  - 🥉7 ·  ⭐ 5 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>WYSIWYG docs editor for Mkdocs Material themed docs. A content editing experience.</summary>
+
+- [GitHub](https://github.com/samrocketman/mkdocs-live-wysiwyg-plugin) (👨‍💻 2 · 🔀 3 · 📥 15 · 📋 3 - 33% open · ⏱️ 24.04.2026)
+- [PyPi](https://pypi.org/project/mkdocs-live-wysiwyg-plugin) (📥 230 / month):
+	```
+	pip install mkdocs-live-wysiwyg-plugin
+	```
+- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
+   ```yaml
+   plugins:
+     - live-wysiwyg
    ```
 </details>
 <details><summary><b><a href="https://github.com/unmc-vcr/mkdocs-required-frontmatter-plugin">mkdocs-required-frontmatter-plugin</a></b>  - 🥉7 ·  ⭐ 4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>This MkDocs plugin enforces required frontmatter for documentation pages.</summary>
@@ -6051,19 +6077,6 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - progress
    ```
 </details>
-<details><summary><b><a href="https://github.com/samrocketman/mkdocs-live-wysiwyg-plugin">mkdocs-live-wysiwyg-plugin</a></b>  - 🥉6 ·  ⭐ 5 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>WYSIWYG docs editor for Mkdocs Material themed docs. A content editing experience.</summary>
-
-- [GitHub](https://github.com/samrocketman/mkdocs-live-wysiwyg-plugin) (👨‍💻 2 · 🔀 2 · 📥 15 · 📋 3 - 33% open · ⏱️ 24.04.2026)
-- [PyPi](https://pypi.org/project/mkdocs-live-wysiwyg-plugin) (📥 230 / month):
-	```
-	pip install mkdocs-live-wysiwyg-plugin
-	```
-- Add to [mkdocs.yml](https://mkdocs-ng.org/user-guide/configuration/#plugins):
-   ```yaml
-   plugins:
-     - live-wysiwyg
-   ```
-</details>
 <details><summary><b><a href="https://github.com/JonasDoesThings/mkdocs-exclude-tagged-files">mkdocs-exclude-tagged-files</a></b>  - 🥉6 ·  ⭐ 4 · 💤 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A mkdocs plugin for excluding files based on frontmatter tags.</summary>
 
 - [GitHub](https://github.com/JonasDoesThings/mkdocs-exclude-tagged-files) (👨‍💻 2 · 🔀 1 · 📦 4 · ⏱️ 10.09.2023)
@@ -6090,7 +6103,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mkdocs-new-features-notifier
    ```
 </details>
-<details><summary><b><a href="https://github.com/michal2612/mkdocs-exclude-unused">mkdocs-exclude-unused</a></b>  - 🥉5 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Simple plugin to exclude unused .md files from docs folder.</summary>
+<details><summary><b><a href="https://github.com/michal2612/mkdocs-exclude-unused">mkdocs-exclude-unused</a></b>  - 🥉5 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>Simple plugin to exclude unused .md files from docs folder.</summary>
 
 - [GitHub](https://github.com/michal2612/mkdocs-exclude-unused) (👨‍💻 2 · 🔀 1 · ⏱️ 20.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-exclude-unused) (📥 16 / month):
@@ -6129,7 +6142,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - adr_plugin
    ```
 </details>
-<details><summary><b><a href="https://github.com/ralvarezdev/mkdocs-platform-plugin">mkdocs-platform-plugin</a></b>  - 🥉4 · ➕ · <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to filter GitHub content-only and MkDocs website content-only.</summary>
+<details><summary><b><a href="https://github.com/ralvarezdev/mkdocs-platform-plugin">mkdocs-platform-plugin</a></b>  - 🥉4 · <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to filter GitHub content-only and MkDocs website content-only.</summary>
 
 - [GitHub](https://github.com/ralvarezdev/mkdocs-platform-plugin) (⏱️ 10.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-platform-plugin) (📥 10 / month):
@@ -6200,9 +6213,9 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/mondeja/mkdocs-include-markdown-plugin">include-markdown</a></b>  - 🥇24 ·  ⭐ 160 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs Markdown includer plugin.</summary>
+<details><summary><b><a href="https://github.com/mondeja/mkdocs-include-markdown-plugin">include-markdown</a></b>  - 🥇25 ·  ⭐ 160 · 📈 · <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/ng-tested.svg" style="display:inline;" width="13" height="13"></code><br>Mkdocs Markdown includer plugin.</summary>
 
-- [GitHub](https://github.com/mondeja/mkdocs-include-markdown-plugin) (👨‍💻 18 · 🔀 29 · 📥 810 · 📦 4.3K · 📋 100 - 2% open · ⏱️ 15.05.2026)
+- [GitHub](https://github.com/mondeja/mkdocs-include-markdown-plugin) (👨‍💻 19 · 🔀 30 · 📥 960 · 📦 4.4K · 📋 100 - 1% open · ⏱️ 07.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-include-markdown-plugin) (📥 430K / month):
 	```
 	pip install mkdocs-include-markdown-plugin
@@ -6304,7 +6317,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - mdx_include
    ```
 </details>
-<details><summary><b><a href="https://github.com/BetonQuest/mkdocs-snippets">mkdocs-snippets</a></b>  - 🥉10 ·  ⭐ 3 · ➕ · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A plugin for MkDocs that adds the ability to include snippets in your documentation.</summary>
+<details><summary><b><a href="https://github.com/BetonQuest/mkdocs-snippets">mkdocs-snippets</a></b>  - 🥉10 ·  ⭐ 3 · <code><a href="http://bit.ly/34MBwT8">MIT</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A plugin for MkDocs that adds the ability to include snippets in your documentation.</summary>
 
 - [GitHub](https://github.com/BetonQuest/mkdocs-snippets) (👨‍💻 5 · 🔀 1 · 📦 33 · 📋 6 - 83% open · ⏱️ 02.11.2026)
 - [PyPi](https://pypi.org/project/mkdocs-snippets) (📥 5.4K / month):
@@ -6343,7 +6356,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - snippet
    ```
 </details>
-<details><summary><b><a href="https://github.com/paddy74/mkdocs-extrafiles">mkdocs-extrafiles</a></b>  - 🥉8 · ➕ · <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A plugin for MkDocs plugin that allows you to add files from outside your `docs_dir`.</summary>
+<details><summary><b><a href="https://github.com/paddy74/mkdocs-extrafiles">mkdocs-extrafiles</a></b>  - 🥉8 · <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>A plugin for MkDocs plugin that allows you to add files from outside your `docs_dir`.</summary>
 
 - [GitHub](https://github.com/paddy74/mkdocs-extrafiles) (👨‍💻 2 · 📥 2 · 📦 1 · ⏱️ 25.02.2026)
 - [PyPi](https://pypi.org/project/mkdocs-extrafiles) (📥 2.4K / month):
@@ -6369,7 +6382,7 @@ _llms.txt, Markdown for agents, AI search and chat assistants._
      - include-folders
    ```
 </details>
-<details><summary><b><a href="https://github.com/daemonless/mkdocs-zip-bundle-plugin">mkdocs-zip-bundle-plugin</a></b>  - 🥉6 · ➕ · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to bundle code blocks into downloadable ZIP or raw files.</summary>
+<details><summary><b><a href="https://github.com/daemonless/mkdocs-zip-bundle-plugin">mkdocs-zip-bundle-plugin</a></b>  - 🥉6 · <code>❗Unlicensed</code> · <code><img src="https://raw.githubusercontent.com/mkdocs-ng/catalog/main/assets/labels/plugin.svg" style="display:inline;" width="13" height="13"></code><br>MkDocs plugin to bundle code blocks into downloadable ZIP or raw files.</summary>
 
 - [GitHub](https://github.com/daemonless/mkdocs-zip-bundle-plugin) (👨‍💻 2 · ⏱️ 07.10.2026)
 - [PyPi](https://pypi.org/project/mkdocs-zip-bundle-plugin) (📥 15 / month):
