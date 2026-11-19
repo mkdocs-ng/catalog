@@ -12,9 +12,12 @@ copyright: Copyright &copy; 2026 The MkDocs NG contributors · CC-BY-SA-4.0
 
 theme:
   name: sumi
-  logo: img/logo.svg
-  logo_dark: img/logo-dark.svg
+  # The letterless book reads at header size; logo.svg (with M | NG) is for large uses.
+  logo: img/logo-mark.svg
+  logo_dark: img/logo-mark-dark.svg
   favicon: img/favicon.svg
+  # Shown when a page is shared on social media.
+  social_image: img/social.png
   # MkDocs NG brand blue; css/extra.css sets a lighter blue for dark mode.
   accent: "#0061fe"
 
