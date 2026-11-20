@@ -2984,3 +2984,15 @@ projects:
   pypi_id: mkdocs-onlinecompiler
   labels: [plugin]
   category: code-exec-templating
+- name: mkdocs-docdive
+  mkdocs_plugin: docdive
+  github_id: thibaudnavarre/docdive
+  pypi_id: mkdocs-docdive
+  labels: [plugin]
+  category: charts
+- name: mkdocs-sorrow-theme
+  mkdocs_theme: sorrow
+  github_id: MHS-20/sorrow-mkdocs-theme
+  pypi_id: mkdocs-sorrow-theme
+  labels: [theme]
+  category: theming
