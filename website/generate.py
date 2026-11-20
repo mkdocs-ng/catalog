@@ -521,12 +521,17 @@ def main() -> None:
         )
     stats.append("{.striped}")
 
-    top = sorted(projects, key=lambda p: -p["downloads"])[:15]
+    ranked = sorted(projects, key=lambda p: -p["downloads"])
     top_rows = [
-        f"| [{cell(p['name'])}](plugins/{p['slug']}.md) | {categories[p['category']]} | "
+        f"| {n} | [{cell(p['name'])}](plugins/{p['slug']}.md) | {categories[p['category']]} | "
         f"{short_number(p['downloads'])} | {'✓' if p['tested'] else ''} |"
-        for p in top
+        for n, p in enumerate(ranked[:15], 1)
     ]
+    # The hero's side card: the top of the download ranking, as a plain-text leaderboard.
+    board = [f"{'#':>2}  {'Project':<22}{'Downloads':>10}  NG"]
+    for n, p in enumerate(ranked[:8], 1):
+        name = p["name"] if len(p["name"]) <= 21 else p["name"][:20] + "…"
+        board.append(f"{n:>2}  {name:<22}{short_number(p['downloads']) + '/mo':>10}  {'✓' if p['tested'] else '·'}")
     total = len(projects)
     downloads = sum(p["downloads"] for p in projects)
     front_matter = {
@@ -542,9 +547,8 @@ def main() -> None:
             "actions": [
                 {"text": "Browse categories", "link": "#categories", "icon": "layers", "primary": True},
                 {"text": "All projects", "link": "all.md", "icon": "table"},
-                {"text": "Tested on MkDocs NG", "link": "ng-tested.md", "icon": "badge-check"},
             ],
-            "install": "pip install mkdocs-ng",
+            "code": {"title": "Most downloaded this month", "lang": "text", "content": "\n".join(board)},
         },
         "sections": [
             {
@@ -556,50 +560,74 @@ def main() -> None:
                     {"value": short_number(downloads), "label": "PyPI downloads a month"},
                 ],
             },
-            {"type": "content"},
+            {
+                "type": "markdown",
+                "id": "categories",
+                "class": "catalog-wide",
+                "title": "Browse by category",
+                "text": f"{len(cards)} categories, from themes and API docs to search, i18n and AI.",
+                "markdown": "\n".join([*cards, '{.cards cols="3"}']),
+            },
+            {
+                "type": "markdown",
+                "class": "catalog-wide catalog-top",
+                "title": "Most downloaded",
+                "text": "PyPI downloads in the last month. A ✓ means the project builds on MkDocs NG "
+                "in the weekly compatibility test.",
+                "markdown": "\n".join(
+                    ["| # | Project | Category | Downloads/month | Tested on NG |", "| --- | --- | --- | --- | --- |", *top_rows, "{.striped}"]
+                ),
+                "actions": [
+                    {"text": "All projects", "link": "all.md", "icon": "table", "primary": True},
+                    {"text": "Tested on MkDocs NG", "link": "ng-tested.md", "icon": "badge-check"},
+                ],
+            },
+            {
+                "type": "markdown",
+                "class": "catalog-wide",
+                "title": "The catalog at a glance",
+                "markdown": "\n".join(
+                    [
+                        *stats,
+                        "",
+                        f"Active means a commit in the last {INACTIVE_DAYS} days. [Filter all projects](all.md) "
+                        "by type, category, NG status or activity.",
+                    ]
+                ),
+            },
+            {
+                "type": "features",
+                "tone": "soft",
+                "title": "How the catalog works",
+                "columns": 3,
+                "items": [
+                    {
+                        "icon": "chart-column",
+                        "title": "Ranked by real use",
+                        "text": "A quality score from GitHub and PyPI data: stars, downloads, dependents, "
+                        "contributors and recent activity. Refreshed every Thursday.",
+                    },
+                    {
+                        "icon": "pencil",
+                        "title": "Add or update a project",
+                        "text": f"Edit [projects.yaml]({REPO}/edit/main/projects.yaml) and open a pull request, "
+                        f"or [suggest a project]({REPO}/issues/new/choose). Every project page links to its entry.",
+                    },
+                    {
+                        "icon": "rocket",
+                        "title": "Start with MkDocs NG",
+                        "text": "A maintained, drop-in replacement for MkDocs 1.x: `pip install mkdocs-ng`. "
+                        "Read the [migration guide](https://mkdocs-ng.org/user-guide/migrating/) "
+                        "or try [Sumi](https://sumi.mkdocs-ng.org/).",
+                    },
+                ],
+            },
         ],
     }
     body = [
-        "## Categories",
-        "",
-        *cards,
-        "{.cards}",
-        "",
-        "## The catalog at a glance",
-        "",
-        *stats,
-        "",
-        f"Active means a commit in the last {INACTIVE_DAYS} days. [Filter all projects](all.md) by type, "
-        "category, NG status or activity.",
-        "",
-        "## Most downloaded",
-        "",
-        "| Project | Category | Downloads/month | Tested on NG |",
-        "| --- | --- | --- | --- |",
-        *top_rows,
-        "{.striped}",
-        "",
-        "## How projects are ranked",
-        "",
-        "Projects are sorted by a quality score computed from GitHub and PyPI data: stars, downloads, "
-        "dependents, contributors and recent activity. The data is refreshed every Thursday.",
-        "",
-        "## Add or update a project",
-        "",
-        f"Edit [projects.yaml]({REPO}/edit/main/projects.yaml) and open a pull request, "
-        f"or [suggest a project]({REPO}/issues/new/choose) in an issue. "
-        "Every project page has an *Edit this entry* link to its line in the file.",
-        "",
-        "## Start with MkDocs NG",
-        "",
-        "MkDocs NG is a maintained, drop-in replacement for MkDocs 1.x. Your `mkdocs.yml` and plugins keep working:",
-        "",
-        "```sh",
-        "pip install mkdocs-ng",
-        "```",
-        "",
-        "Read the [migration guide](https://mkdocs-ng.org/user-guide/migrating/) "
-        "or try [Sumi](https://sumi.mkdocs-ng.org/), the MkDocs NG theme.",
+        "Plugins, themes and Markdown extensions for MkDocs NG and MkDocs, ranked by usage and activity. "
+        "Browse by [category](#categories), see [every project](all.md) or the ones "
+        "[tested on MkDocs NG](ng-tested.md).",
         "",
     ]
     write(
