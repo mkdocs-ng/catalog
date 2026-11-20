@@ -20,6 +20,22 @@ theme:
   social_image: img/social.png
   # MkDocs NG brand blue; css/extra.css sets a lighter blue for dark mode.
   accent: "#0061fe"
+  footer_links:
+    - title: Catalog
+      links:
+        - {text: Categories, link: "/#categories"}
+        - {text: All projects, link: all/}
+        - {text: Tested on MkDocs NG, link: ng-tested/}
+    - title: Contribute
+      links:
+        - {text: Add a project, link: "https://github.com/mkdocs-ng/catalog/edit/main/projects.yaml"}
+        - {text: Suggest a project, link: "https://github.com/mkdocs-ng/catalog/issues/new/choose"}
+        - {text: Source on GitHub, link: "https://github.com/mkdocs-ng/catalog"}
+    - title: MkDocs NG
+      links:
+        - {text: Documentation, link: "https://mkdocs-ng.org/"}
+        - {text: Switching from MkDocs, link: "https://mkdocs-ng.org/user-guide/migrating/"}
+        - {text: Sumi theme, link: "https://sumi.mkdocs-ng.org/"}
 
 extra_css:
   - css/extra.css

@@ -29,3 +29,22 @@
 
 /* Category tables: keep numbers and dates on one line. */
 .catalog-summary td:nth-child(n+3) { white-space: nowrap; }
+
+/* Home page: the sections use the full page width, like the hero above them. */
+.catalog-wide .sumi-land-md { max-width: none; }
+.catalog-wide .sumi-prose ul.sumi-cards { margin: 0; }
+@media (max-width: 920px) {
+    .catalog-wide .sumi-prose ul.sumi-cards { --cols: 2 !important; }
+}
+/* Category cards: icon beside the name, so 18 cards fit in six short rows. */
+.catalog-wide .sumi-cards > li { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 14px; align-items: center; padding: 16px 18px; }
+.catalog-wide .sumi-cards > li > p:first-child { display: contents; }
+.catalog-wide .sumi-cards .sumi-icon-inline { grid-row: span 2; margin: 0; }
+.catalog-wide .sumi-cards > li > p:first-child > svg:first-child + a { margin: 0; }
+.catalog-top table td:first-child, .catalog-top table th:first-child { width: 2.5em; color: var(--sumi-fg-3); font-variant-numeric: tabular-nums; }
+.catalog-top table td:nth-child(n+4) { white-space: nowrap; }
+@media (max-width: 600px) {
+    .catalog-wide .sumi-prose ul.sumi-cards { --cols: 1 !important; gap: 8px; }
+    .catalog-wide .sumi-cards > li { padding: 10px 14px; }
+    .catalog-wide .sumi-cards .sumi-icon-inline { width: 22px; height: 22px; }
+}
