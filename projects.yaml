@@ -2996,3 +2996,15 @@ projects:
   pypi_id: mkdocs-sorrow-theme
   labels: [theme]
   category: theming
+- name: mkdocs-percona-llmstxt
+  mkdocs_plugin: percona-llmstxt
+  github_id: percona/mkdocs-percona-llmstxt
+  pypi_id: mkdocs-percona-llmstxt
+  labels: [plugin]
+  category: ai-llm
+- name: vexy-mkdocs-page-import
+  mkdocs_plugin: page-import
+  github_id: vexyart/vexy-mkdocs-page-import
+  pypi_id: vexy-mkdocs-page-import
+  labels: [plugin]
+  category: nav-pages
